@@ -1,0 +1,160 @@
+# Instalar dependencias necesarias
+!pip install vaderSentiment
+!pip install textblob
+!pip install transformers
+
+# Importar las bibliotecas necesarias
+import pandas as pd
+import re
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from textblob import TextBlob
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from scipy.special import softmax
+import torch
+import matplotlib.pyplot as plt
+import seaborn as sns
+from collections import Counter
+
+# Cargar el archivo CSV
+file_path = 'tweets_globales.csv'  # Cambia esta ruta si es necesario
+df = pd.read_csv(file_path)
+
+# Inicializar el modelo y el tokenizer de transformers
+model_name = "nlptown/bert-base-multilingual-uncased-sentiment"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+
+# Listas iniciales de palabras clave negativas y positivas convertidas a diccionario con valores iniciales de 0
+palabras_clave_negativas = {
+    'muertos': 0, 'inundación': 0, 'colapso': 0, 'atropello': 0, 'destrucción': 0, 'explosión': 0,
+    'desalojo': 0, 'heridos': 0, 'incendio': 0, 'derrumbes': 0, 'desborde': 0, 'evacuación': 0,
+    'colapsos': 0, 'choque': 0, 'perdidas': 0, 'caos': 0, 'granizo': 0, 'accidente': 0, 'colisión': 0,
+    'apagón': 0, 'rescate': 0, 'corte': 0, 'daños': 0, 'afectado': 0, 'fallas': 0, 'barrido': 0,
+    'derrape': 0, 'embotellamiento': 0, 'encharcamiento': 0, 'postes': 0, 'viento': 0, 'atasco': 0,
+    'caída': 0, 'congestión': 0, 'tráfico': 0, 'electricidad': 0, 'lluvia': 0, 'árboles': 0, 'charco': 0,
+    'nublado': 0
+}
+
+palabras_clave_positivas = {
+    'celebración': 1.0, 'festivo': 1.0, 'éxito': 1.0, 'premio': 1.0, 'bien': 1.0
+}
+
+# Función para limpiar el texto y quitar símbolos
+def limpiar_texto(texto):
+    if not isinstance(texto, str):
+        texto = ""
+    texto = texto.lower()
+    texto = re.sub(r'[^\w\s]', '', texto)
+    return texto
+
+# Asegurarse de que todos los valores de la columna 'Texto' sean cadenas
+df['Texto'] = df['Texto'].astype(str).fillna('')
+
+# Limpiar el texto y contar la frecuencia de las palabras clave
+textos_limpios = df['Texto'].apply(limpiar_texto)
+frecuencia_palabras = Counter()
+
+# Contar frecuencia de palabras clave en los tweets
+for texto in textos_limpios:
+    palabras = texto.split()
+    for palabra in palabras:
+        if palabra in palabras_clave_negativas or palabra in palabras_clave_positivas:
+            frecuencia_palabras[palabra] += 1
+
+# Crear un DataFrame con las frecuencias de palabras clave
+df_frecuencias = pd.DataFrame(frecuencia_palabras.items(), columns=['Palabra', 'Frecuencia'])
+df_frecuencias = df_frecuencias.sort_values(by='Frecuencia', ascending=False)
+
+# Asignar nuevas ponderaciones basadas en la frecuencia
+max_freq = df_frecuencias['Frecuencia'].max()
+min_freq = df_frecuencias['Frecuencia'].min()
+
+def asignar_ponderacion(frecuencia):
+    # Ponderaciones basadas en frecuencia
+    if frecuencia > max_freq * 0.75:
+        return -0.1
+    elif frecuencia > max_freq * 0.5:
+        return -0.4
+    elif frecuencia > max_freq * 0.25:
+        return -0.8
+    elif frecuencia > max_freq * 0.1:
+        return -1.2
+    else:
+        return -1.75
+
+# Asignar las nuevas ponderaciones a las palabras negativas
+for index, row in df_frecuencias.iterrows():
+    palabra = row['Palabra']
+    frecuencia = row['Frecuencia']
+    if palabra in palabras_clave_negativas:
+        palabras_clave_negativas[palabra] = asignar_ponderacion(frecuencia)
+    elif palabra in palabras_clave_positivas:
+        palabras_clave_positivas[palabra] = min(2, max(1, frecuencia / 10))
+
+# Función para calcular la puntuación de sentimiento usando transformers y ajustar por palabras clave
+def calculate_sentiment(text):
+    # Calcular el puntaje usando transformers
+    try:
+        # Verificar que el texto no esté vacío antes de procesarlo
+        if text.strip() == "":
+            return 0
+
+        inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512)  # Truncar texto para evitar errores
+        outputs = model(**inputs)
+        scores = outputs.logits.detach().numpy()
+        scores = softmax(scores[0])
+        sentiment_score = sum([a * b for a, b in zip(sentiment_labels, scores)])
+
+        # Limpiar el texto para la verificación de palabras clave
+        texto_limpio = limpiar_texto(text)
+
+        # Ajustar puntuación basada en palabras clave negativas
+        ponderacion_negativa = sum(peso for palabra, peso in palabras_clave_negativas.items() if palabra in texto_limpio)
+
+        # Ajustar puntuación basada en palabras clave positivas
+        ponderacion_positiva = sum(peso for palabra, peso in palabras_clave_positivas.items() if palabra in texto_limpio)
+
+        # Ajustar puntuación final con las ponderaciones
+        puntuacion_ajustada = sentiment_score + ponderacion_negativa + ponderacion_positiva
+
+        # Limitar puntuación entre -2 y 2
+        return max(min(puntuacion_ajustada, 2), -2)
+    except Exception as e:
+        return 0  # En caso de error, devolver 0 como puntaje neutral
+
+# Aplicar la función a cada texto en la columna 'Texto'
+df['Puntaje'] = df['Texto'].apply(calculate_sentiment)
+
+# Guardar el dataframe actualizado en un archivo CSV
+df.to_csv('tweets_puntuados_ajustados.csv', index=False)
+
+# Mostrar las primeras filas con las nuevas puntuaciones de sentimiento
+print(df.head())
+
+# Generar gráficos de distribución
+# Histograma de puntuaciones de sentimiento
+plt.figure(figsize=(10, 6))
+sns.histplot(df['Puntaje'], bins=20, kde=True, color='blue')
+plt.title('Distribución de Puntuaciones de Sentimiento')
+plt.xlabel('Puntuación de Sentimiento')
+plt.ylabel('Frecuencia')
+plt.show()
+
+# Si tienes una columna con categorías o temas, por ejemplo 'Tipo'
+if 'Tipo' in df.columns:
+    plt.figure(figsize=(12, 6))
+    sns.barplot(x='Tipo', y='Puntaje', data=df, ci=None)
+    plt.title('Puntuación Media de Sentimiento por Categoría')
+    plt.xlabel('Categoría')
+    plt.ylabel('Puntuación Media de Sentimiento')
+    plt.xticks(rotation=45)
+    plt.show()
+
+# Scatter plot para visualizar la puntuación a lo largo de otra variable (ej. tiempo)
+if 'Timestamp' in df.columns:
+    plt.figure(figsize=(14, 6))
+    sns.scatterplot(x='Timestamp', y='Puntaje', data=df, hue='Puntaje', palette='coolwarm', alpha=0.7)
+    plt.title('Puntuación de Sentimiento a lo Largo del Tiempo')
+    plt.xlabel('Fecha y Hora')
+    plt.ylabel('Puntuación de Sentimiento')
+    plt.show()
