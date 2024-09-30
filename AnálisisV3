@@ -1,5 +1,3 @@
-{
-"source": [
 # Instalar dependencias necesarias
 !pip install vaderSentiment
 !pip install textblob
@@ -160,5 +158,3 @@ if 'Timestamp' in df.columns:
     plt.xlabel('Fecha y Hora')
     plt.ylabel('Puntuación de Sentimiento')
     plt.show()
-]
-}
