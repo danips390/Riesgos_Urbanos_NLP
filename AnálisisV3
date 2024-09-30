@@ -158,3 +158,4 @@ if 'Timestamp' in df.columns:
     plt.xlabel('Fecha y Hora')
     plt.ylabel('Puntuación de Sentimiento')
     plt.show()
+[![Captura-de-pantalla-2024-09-26-213833.png](https://i.postimg.cc/YqFZgFzD/Captura-de-pantalla-2024-09-26-213833.png)](https://postimg.cc/6y9MxySC)
