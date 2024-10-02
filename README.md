@@ -5,4 +5,4 @@ El script ModelV1_0_2 muestra cómo se entrenó un modelo spacy añadiendo mas e
 
 
 ## Model2Fuzzy library
-- CreateLabels(model, dataframe, colName , $\textbf{\textit{arr[string]}}$ labels, string dataframeOutputName):
+- CreateLabels(model, dataframe, colName , $\textit{arr[string]}$ labels, string dataframeOutputName):
