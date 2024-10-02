@@ -6,9 +6,16 @@ El script ModelV1_0_2 muestra cómo se entrenó un modelo spacy añadiendo mas e
 
 ## Model2Fuzzy library
 - CreateLabels(model, dataframe, $\textit{string}$ colName , $\textit{arr[string]}$ labels, $\textit{string}$ dataframeOutputName):
-model: Spacy trained model. \\
+model: Spacy trained model. 
 
-dataframe: dataframe where you stored just the tweets \\
-$\textit{string}$ colName: jcolumn name where you have the tweet \\
-$\textit{arr[string]}$ labels: the entities you want to extract from your trained model \\
-$\textit{string}$ dataframeOutputName: name of your new dataframe with new columns based on the labels \\
+
+dataframe: dataframe where you stored just the tweets 
+
+
+$\textit{string}$ colName: jcolumn name where you have the tweet 
+
+
+$\textit{arr[string]}$ labels: the entities you want to extract from your trained model 
+
+
+$\textit{string}$ dataframeOutputName: name of your new dataframe with new columns based on the labels 
