@@ -1,0 +1,6 @@
+search_tweets_api:
+  account_type: premium
+  endpoint: <https://api.x.com/1.1/statuses/user_timeline.json>
+  consumer_key: <DVqSrt4zyVXpQauE3Dr2wNYDZ>
+  consumer_secret: <OMs3u0PR3udjxgUh8ZAgMA0CymfgTMCHLtHPvHjIEsJeuKHeo1>
+  bearer_token: <AAAAAAAAAAAAAAAAAAAAANJLwQEAAAAAB8xA42PGtH%2BWkORKGwz6O0adkN4%3D5TJqZER8HOUyKNEmluI2uC17J5pnEiScOOaB9zfgLvrpo6AzBE>
