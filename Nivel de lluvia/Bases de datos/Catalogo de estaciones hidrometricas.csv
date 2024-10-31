@@ -1,0 +1,1190 @@
+Clave,Nombre de la estación,Latitud,Longitud,Altitud,Estado,Municipio,R.H.,Cuenca
+CNDCA,"Candelaria, Camp.",18.183056,-91.046111,50,Campeche,Candelaria,30,Grijalva - Usumacinta
+CANCA,"Canasayab, Camp.",19.295,-90.575556,17,Campeche,Champotón,31,Grijalva - Usumacinta
+CDLCL,"Candela, Coah.",26.844444,-100.661111,620,Coahuila de Zaragoza,Candela,24,Río Medio Bravo
+SBNCL,"Sabinas, Coah.",27.846667,-101.122778,339,Coahuila de Zaragoza,Sabinas,24,Bravo Conchos
+CL3CM,"Callejones C.P. M.I., Col.",18.825833,-103.623333,24,Colima,Tecomán,16,Rio Coahuayaná
+CLLCM,"Callejones, Col.",18.826389,-103.626111,42,Colima,Tecomán,16,Rio Coahuayaná
+DJLCM,"Presa derivadora Jala, Col.",19.111389,-103.884444,200,Colima,Tecomán,16,Río Armería
+MADCM,"Cuastecomatan, Col.",19.210278,-103.885833,200,Colima,Tecomán,16,Río Armería
+PN2CM,"Canal principal de Peñitas, Col.",18.826111,-103.622778,270,Colima,Comala,16,Río Armería
+PNTCM,"Peñitas, Col.",19.3275,-103.8125,457,Colima,Comala,16,Río Armería
+TECCM,"Jala Tecuanillo, Col.",19.111389,-103.884167,191,Colima,Tecomán,16,Río Armería
+ACACP,"Acala, Chis.",16.552778,-92.804167,393,Chiapas,Acala,30,Alto Grijalva
+AQECP,"Aquespala, Chis.",15.783333,-91.911111,675,Chiapas,La Trinitaria,30,Alto Grijalva
+BOQCP,"Boquerón, Chis.",16.641944,-93.15,480,Chiapas,Suchiapa,30,Alto Grijalva
+CACCP,"Cacaluta, Chis.",15.35,-92.716667,20,Chiapas,Acacoyagua,23,Costa de Chiapas
+CASCP,"Cascajal, Chis.",16.308333,-92.479167,650,Chiapas,Venustiano Carranza,30,Alto Grijalva
+CHMCP,"Chicomuselo, Chis.",15.75,-92.283333,710,Chiapas,Chicomuselo,30,Alto Grijalva
+DESCP,"Despoblado, Chis.",15.204167,-92.575,115,Chiapas,Villa Comaltitlán,23,Costa de Chiapas
+ELNCP,"El Novillero, Chis.",15.495833,-92.95,98,Chiapas,Mapastepec,23,Costa de Chiapas
+ESCCP,"Escuintla, Chis.",15.316667,-92.666667,110,Chiapas,Escuintla,23,Costa de Chiapas
+GRICP,"Grijalva, Chis.",16.975,-93.125,211,Chiapas,Chicoasén,30,Alto Grijalva
+HUICP,"Huixtla, Chis.",15.133333,-92.472222,40,Chiapas,Huixtla,23,Costa de Chiapas
+JESCP,"Jesús, Chis.",15.875,-93.475,90,Chiapas,Tonalá,23,Costa de Chiapas
+LACCP,"Lacantún, Chis.",16.580833,-90.702222,905,Chiapas,Ocosingo,30,Usumacinta
+LESCP,"La Escalera, Chis.",16.490278,-93.025,485,Chiapas,Chiapa de Corzo,30,Alto Grijalva
+MAPCP,"Mapastepec, Chis.",15.45,-92.883333,32,Chiapas,Mapastepec,23,Costa de Chiapas
+MARCP,"Margaritas, Chis.",15.583333,-93.066667,1512,Chiapas,Pijijiapan,23,Costa de Chiapas
+PCOCP,"Puente Concordia, Chis.",15.848611,-91.968056,582,Chiapas,Frontera Comalapa,30,Alto Grijalva
+PICCP,"Pichucalco, Chis.",17.511944,-93.113889,114,Chiapas,Pichucalco,30,Bajo Grijalva
+PIJCP,"Pijijiapan, Chis.",15.691667,-93.216667,38,Chiapas,Pijijiapan,23,Costa de Chiapas
+PLACP,"Platanar, Chis.",17.577778,-93.3875,38,Chiapas,Pichucalco,30,Bajo Grijalva
+REFCP,"Reforma, Chis.",15.916667,-92.666667,588,Chiapas,La Concordia,30,Alto Grijalva
+REVCP,"Revolución Mexicana, Chis.",16.158333,-93.079167,588,Chiapas,Villa Corzo,30,Alto Grijalva
+RCACP,"Rómulo Calzada, Chis.",17.348333,-93.552778,116,Chiapas,Tecpatán,30,Bajo Grijalva
+SAACP,"Salto de Agua, Chis.",17.566667,-92.35,92,Chiapas,Salto de Agua,30,Grijalva - Usumacinta
+SAYCP,"Sayula, Chis.",17.425,-93.383333,228,Chiapas,Ostuacán,30,Bajo Grijalva
+SCRCP,"Puente Morelos, Chis.",16.741667,-92.616667,2113,Chiapas,San Cristóbal de las Casas,30,Alto Grijalva
+SDICP,"San Diego, Chis.",15.7425,-93.3,840,Chiapas,Pijijiapan,23,Costa de Chiapas
+SDOCP,"Santo Domingo, Chis.",16.4525,-93.056389,500,Chiapas,Chiapa de Corzo,30,Alto Grijalva
+SMICP,"San Miguel, Chis.",15.775,-92.239444,710,Chiapas,Frontera Comalapa,30,Alto Grijalva
+SUCCP,"Suchiate, Chis.",14.683333,-92.133333,18,Chiapas,Suchiate,23,Costa de Chiapas
+TALCP,"Talismán, Chis.",14.966667,-92.147222,148,Chiapas,Tuxtla Chico,23,Costa de Chiapas
+TAMCP,"Malpaso II, Chis.",14.99,-92.243333,18,Chiapas,Tapachula,23,Costa de Chiapas
+TONCP,"Tonalá, Chis.",16.086944,-93.75,55,Chiapas,Tonalá,23,Costa de Chiapas
+TPICP,"Tres Picos, Chis.",15.875,-93.529167,55,Chiapas,Tonalá,23,Costa de Chiapas
+YAMCP,"Yamonhó, Chis.",17.116667,-93.330556,325,Chiapas,Tecpatán,30,Alto Grijalva
+BTPCH,"Batopilas, Chih.",27.033611,-107.723611,565,Chihuahua,Batopilas de Manuel Gómez Morín,10,Río Fuerte
+CL2CH,"Colina hidrométrica, Chih.",27.410278,-105.381667,1245,Chihuahua,San Francisco de Conchos,24,Río Conchos
+CNDCH,"Chínipas, Chih.",27.416667,-108.541667,490,Chihuahua,Chínipas,10,Río Fuerte
+GPCCH,"Guapoca, Chih.",29.2,-108.3,1260,Chihuahua,Madera,9,Yaqui - Matapé
+GRCCH,"Guerachi, Chih.",26.813056,-107.072778,2430,Chihuahua,Guachochi,10,Río Fuerte
+IGNCH,"San Ignacio, Chih.",26.870833,-107.879167,501,Chihuahua,Batopilas de Manuel Gómez Morín,0,Río Fuerte
+JMNCH,"Jiménez, Chih.",27.126667,-104.912778,1479,Chihuahua,Jiménez,24,Río Conchos
+TCNCH,"Tecuan, Chih.",27.579167,-105.366667,0,Chihuahua,San Francisco de Conchos,24,Río Conchos
+URECH,"Urique, Chih.",27.216667,-107.9125,599,Chihuahua,Urique,10,Río Fuerte
+AMLDR,"Agustín Melgar, Dgo.",25.264167,-104.068056,1225,Durango,Nazas,36,Río Nazas
+CB2DR,"Caboraca hidrométrica, Dgo.",24.516667,-104.8,2003,Durango,Canatlán,11,San Pedro - Rosa Morada
+CFRDR,"Cañón Fernández hidrométrica de Francisco Zarco, Dgo.",25.265278,-103.773611,1200,Durango,Cuencamé,,Río Nazas
+FV2DR,"Francisco Villa hidrométrica, Dgo.",24.001667,-103.960278,1961,Durango,Poanas,11,San Pedro - Rosa Morada
+GVHDR,"Guadalupe Victoria hidrométrica, Dgo.",23.960278,-104.751944,1982,Durango,Durango,11,San Pedro - Rosa Morada
+PALDR,"Palmito hidrométrica de Lázaro Cárdenas, Dgo.",25.614444,-105.003611,1600,Durango,Indé,36,Río Nazas
+SACDR,"Salomé Acosta, Dgo.",25.225,-105.443056,1670,Durango,Santiago Papasquiaro,36,Río Ramos y del Oro
+SB2DR,"Santiago Bayacora hidrométrica, Dgo.",23.873333,-104.673889,1900,Durango,Durango,11,San Pedro - Rosa Morada
+SRDDR,"Sardinas, Dgo.",26.084444,-105.566667,1639,Durango,San Bernardo,36,Río Ramos y del Oro
+TDRDR,"El Tule del Real, Dgo.",24.702222,-106.538056,300,Durango,Tamazula,10,Río Elotla
+TMZDR,"Tamazula, Dgo.",24.933333,-106.975,1580,Durango,Tamazula,10,Rio Culiacán
+ACSGJ,"Arroyo los castillos, Gto.",21.2,-101.666667,1874,Guanajuato,León,12,Medio Lerma
+AMCGJ,"Ameche, Gto.",20.553889,-100.5825,1786,Guanajuato,Apaseo el Grande,12,La Laja
+ANSGJ,"Arandas, Gto.",20.712778,-101.370833,1740,Guanajuato,Irapuato,12,Medio Lerma
+BEGGJ,"La Begoña hidrométrica, Gto.",20.833333,-100.816667,1820,Guanajuato,San Miguel de Allende,12,La Laja
+BRAGJ,"Braniff, Gto.",20.05,-100.666667,1879,Guanajuato,Acámbaro,12,Alto Lerma
+CAYGJ,Canal alimentador a Yuriria,20.269722,-101.019722,0,Guanajuato,Salvatierra,,Alto Lerma
+CEYGJ,"Canal extracciones Yuriria, Gto.",20.266667,-101.216667,1730,Guanajuato,Jaral del Progreso,12,Alto Lerma
+CPLGJ,"Copalillo, Gto.",20.721667,-101.346667,0,Guanajuato,Irapuato,0,Alto Lerma
+CSSGJ,"Los Castillos, Gto.",21.191667,-101.666667,1853,Guanajuato,León,,Medio Lerma
+CSTGJ,"Los Castillos, Gto.",21.195556,-101.6675,1874,Guanajuato,León,12,Medio Lerma
+CYUGJ,"Canal alimentador Yuriria, Gto.",20.216667,-101.133333,1736,Guanajuato,Yuriria,12,Alto Lerma
+ECBGJ,"El Cubo, Gto.",20.279722,-100.9,1775,Guanajuato,Salvatierra,12,Alto Lerma
+ECHGJ,"El Chapín, Gto.",20.872222,-101.244444,1775,Guanajuato,Guanajuato,12,Medio Lerma
+ECLGJ,"El Colorado, Gto.",20.650556,-101.8825,1738,Guanajuato,Manuel Doblado,,Medio Lerma
+JCRGJ,"Jerécuaro, Gto.",20.145556,-100.518333,1931,Guanajuato,Jerécuaro,12,Alto Lerma
+LADGJ,"Las Adjuntas, Gto.",20.675278,-101.844167,1802,Guanajuato,Manuel Doblado,12,La Laja
+LMTGJ,"Lomo de Toro, Gto.",20.3,-101,1890,Guanajuato,Salvatierra,12,Alto Lerma
+MRKGJ,"Markazuza, Gto.",20.325833,-101.458333,1695,Guanajuato,Valle de Santiago,,Medio Lerma
+PDLGJ,"Puente Dolores, Gto.",21.168056,-100.900556,1837,Guanajuato,Dolores Hidalgo Cuna de la Independencia Nacional,12,La Laja
+PERGJ,"Pericos, Gto.",20.5225,-101.111389,1722,Guanajuato,Salamanca,12,La Laja
+SL2GJ,"Solis, Gto.",20.05,-100.666667,1879,Guanajuato,Acámbaro,12,Alto Lerma
+SLCGJ,"Canal Solis, Gto.",20.052222,-100.671667,1879,Guanajuato,Acámbaro,12,Alto Lerma
+SLMGJ,"Salamanca, Gto.",20.565833,-101.199444,1713,Guanajuato,Salamanca,12,Medio Lerma
+SLVGJ,"Salvatierra, Gto.",20.216667,-100.885833,1758,Guanajuato,Salvatierra,12,Alto Lerma
+TEMGJ,"Temascatío, Gto.",20.6,-101.3,1840,Guanajuato,Irapuato,12,Alto Lerma
+TGRGJ,"Tres Guerras, Gto.",20.515833,-100.775278,1368,Guanajuato,Celaya,12,La Laja
+TPCGJ,"Tepalcates, Gto.",20.740278,-101.370833,1770,Guanajuato,Irapuato,0,Alto Lerma
+ACEHD,"Arroyo del centro, Hgo.",20.455833,-99.230833,0,Hidalgo,Tecomán,26,Valle de México
+ARSHD,"Al Río el Salto, Hgo.",19.937778,-99.283333,0,Hidalgo,Tepeji del Río de Ocampo,26,Valle de México
+ATCHD,"Atlapexco, Hgo.",21.019444,-98.348056,156,Hidalgo,Atlapexco,26,Bajo Pánuco
+CDCHD,"Canal del centro, Hgo.",20.454167,-99.231111,0,Hidalgo,Ixmiquilpan,26,Valle de México
+CDFHD,"Canal de fuerza, Hgo.",20.452778,-99.230833,0,Hidalgo,Ixmiquilpan,26,Valle de México
+CL1HD,"Canal de liga 1 Rojo Gómez a Vicente Aguirre, Hgo.",20.366667,-99.322222,0,Hidalgo,Ixmiquilpan,26,Valle de México
+CPEHD,"Canal a Presa Endhó, Hgo.",20.132222,-99.351944,0,Hidalgo,Alfajayucan,26,Valle de México
+CSTHD,"Canal Salto Tlamaco, Hgo.",20.0375,-99.222778,0,Hidalgo,Tepetitlán,26,Valle de México
+CVAHD,"Canal Vicente Aguirre, Hgo.",20.414167,-99.3575,0,Hidalgo,Atitalaquia,26,Valle de México
+RSTHD,"Río Salado Tablón, Hgo.",20.051111,-99.225278,0,Hidalgo,Atitalaquia,26,Valle de México
+RTTHD,"Río Tula Tasquillo, Hgo.",20.576389,-99.342778,0,Hidalgo,Tasquillo,26,Valle de México
+ORZHD,"San Felipe Orizatlán, Hgo.",21.166667,-98.6,2370,Hidalgo,San Felipe Orizatlán,26,Bajo Pánuco
+AJJJL,"Ajojúcar, Jal.",21.599444,-102.436944,1751,Jalisco,Teocaltiche,12,Río Alto Santiago
+ATEJL,"Atemajac, Jal.",20.723056,-102.34,0,Jalisco,Arandas,12,Bajo Lerma
+ATQJL,"Atequiza, Jal.",20.397222,-103.091944,1528,Jalisco,Chapala,12,Río Alto Santiago
+BCSJL,"Bocas, Jal.",22.406111,-103.724444,1743,Jalisco,Mezquitic,12,Rio Bajo Santiago
+BLNJL,"Bolaños, Jal.",21.831667,-103.782778,916,Jalisco,Bolaños,12,Rio Bajo Santiago
+BOQJL,"La Boquilla, Jal.",21.058333,-103.397222,0,Jalisco,San Cristóbal de la Barranca,0,Río Alto Santiago
+CALJL,"Calerita, Jal.",21.436111,-102.578611,1747,Jalisco,Teocaltiche,0,Río Alto Santiago
+CIHJL,"Cihuatlán, Jal.",19.233333,-104.566667,13,Jalisco,Cihuatlán,16,Costa de Jalisco
+CORJL,"Corona, Jal.",20.404167,-103.083333,1520,Jalisco,Zapotlán del Rey,0,Bajo Lerma
+CULJL,"Cuale, Jal.",20.593333,-105.218333,54,Jalisco,Puerto Vallarta,16,Hucicila
+CUNJL,"La Cuña, Jal.",21.133333,-102.85,1700,Jalisco,Yahualica de González Gallo,12,Río Alto Santiago
+CXTJL,"Cuixtla, Jal.",21.066667,-103.45,816,Jalisco,San Cristóbal de la Barranca,12,Río Alto Santiago
+ELCJL,"El Corcovado, Jal.",19.845833,-104.285278,898,Jalisco,Autlán de Navarro,12,Río Armería
+EXPJL,"La Experiencia, Jal.",20.723333,-103.335,1550,Jalisco,Guadalajara,12,Alto Lerma
+HIGJL,"Higuera Blanca 2, Jal.",19.653889,-105.184444,200,Jalisco,Tomatlán,,Costa de Jalisco
+LDMJL,"Lagos de Moreno, Jal.",21.359722,-101.919722,1871,Jalisco,Lagos de Moreno,12,Río Alto Santiago
+LGLJL,"La Gloria, Jal.",22.068056,-103.396389,1465,Jalisco,Colotlán,12,Alto Lerma
+PAMJL,"Puente Ameca, Jal.",20.55,-104.05,0,Jalisco,Ameca,0,Río Ameca
+PDSJL,"Paso del Sabino, Jal.",21.337222,-102.532778,1699,Jalisco,Teocaltiche,12,Alto Lerma
+PINJL,"El Pinito, Jal.",22.6,-103.916667,1858,Jalisco,Huejuquilla el Alto,12,Rio Bajo Santiago
+RAMJL,"Río Ameca, Jal.",20.55,-104.05,1230,Jalisco,Ameca,15,Río Ameca
+RSLJL,"Los Rosillos, Jal.",20.758333,-103.9875,0,Jalisco,San Juanito de Escobedo,14,Río Ameca
+SAUJL,"La Sauceda, Jal.",21.35,-101.85,1940,Jalisco,Lagos de Moreno,12,Río Alto Santiago
+SCRJL,"San Cristóbal 2, Jal.",21.038889,-103.429167,0,Jalisco,San Cristóbal de la Barranca,12,Río Alto Santiago
+SGRJL,"San Gaspar de los Reyes, Jal.",21.3,-102.5,1740,Jalisco,Jalostotitlán,12,Río Alto Santiago
+SRSJL,"Manuel M. Diéguez, Jal.",20.908889,-103.705556,730,Jalisco,Amatitán,12,Río Alto Santiago
+YESJL,"La Yesca, Jal.",21.193056,-104.090278,420,Jalisco,Hostotipaquillo,16,Rio Bajo Santiago
+ZAPJL,"Zapotlanejo, Jal.",20.404167,-103.0875,98,Jalisco,Juanacatlán,0,Bajo Lerma
+ZPTJL,"El Zapote, Jal.",22.05,-103.05,1589,Jalisco,El Plateado de Joaquín Amaro,12,Bajo Lerma
+ZULJL,"Zula río, Jal.",20.395278,-102.729444,0,Jalisco,Ocotlán,12,Bajo Lerma
+ACLMX,"Puente Atlacomulco, Méx.",19.788889,-99.893056,2496,México,Atlacomulco,0,Alto Lerma
+ARBMX,"Las Arboledas, Méx.",19.566667,-99.216667,2280,México,Atizapán de Zaragoza,26,Valle de México
+ATEMX,"Atenco, Méx.",19.543611,-98.912222,2248,México,Atenco,26,Valle de México
+ATOMX,"Atotonilco 2, Méx.",19.452778,-99.776389,2557,México,Almoloya de Juárez,12,Alto Lerma
+ATTMX,"Atotonilco, Méx.",19.443611,-99.773611,2570,México,Almoloya de Juárez,0,Alto Lerma
+AURMX,"Canal la Aurora, Méx.",19.638056,-99.250556,0,México,Lázaro Cárdenas,26,Valle de México
+CALMX,"Calixtlahuaca, Méx.",19.333333,-99.7,2635,México,Toluca,12,Alto Lerma
+CHPMX,"Chapingo, Méx.",19.483333,-98.884722,2250,México,Texcoco,26,Valle de México
+ECDMX,"El Conde, Méx",19.465278,-98.869444,0,México,Texcoco,,Valle de México
+EMOMX,"El Molinito Río Hondo, Méx.",19.453611,-99.238333,229,México,Naucalpan de Juárez,26,Valle de México
+GDLMX,"Sierra de Guadalupe, Méx.",19.635556,-99.252222,2290,México,Cuautitlán Izcalli,26,Valle de México
+GRDMX,"La Grande, Méx.",19.578889,-98.917222,2252,México,Tezoyuca,26,Valle de México
+IXCMX,"Ixtlahuaca, Méx.",19.5675,-99.769444,2544,México,Ixtlahuaca,12,Alto Lerma
+K26MX,"km 0 + 262, Méx.",19.659722,-99.951944,0,México,San Felipe del Progreso,0,Alto Lerma
+K27MX,"km 27+250, Méx.",19.633333,-99.05,2250,México,Ecatepec de Morelos,26,Valle de México
+LAYMX,"La Y, Méx.",19.404444,-99.593889,2576,México,Otzolotepec,12,Alto Lerma
+LLOMX,"La Loma, Méx.",19.288333,-99.556667,0,México,Toluca,,Alto Lerma
+MBLMX,"Molino Blanco, Méx.",19.477778,-99.220833,2326,México,Naucalpan de Juárez,26,Valle de México
+MLTMX,"Miltepec, Méx",19.311389,-99.647222,0,México,Toluca,,Alto Lerma
+NTQMX,"Nuevo túnel de Tequixquiac, Méx",19.611667,-99.151944,0,México,Tultitlán,,Valle de México
+OBSMX,"San Martín Obispo, Méx.",19.616667,-99.193611,2253,México,Cuautitlán Izcalli,26,Valle de México
+PCGMX,"Puente Colgante, Méx.",19.743056,-99.181944,2254,México,Teoloyucan,26,Valle de México
+PMEMX,"Puente Mextepec, Méx.",19.654444,-99.948889,0,México,San Felipe del Progreso,0,Alto Lerma
+PPBMX,"Planta Potabilizadora Madín, Méx.",19.465556,-99.2675,0,México,Naucalpan de Juárez,26,Valle de México
+PTCMX,"Puente Carretero, Méx",19.283611,-99.521944,2577,México,San Mateo Atenco,12,Alto Lerma
+SADMX,"San Andrés, Méx.",19.530556,-98.911111,2268,México,Texcoco,26,Valle de México
+SB2MX,"San Bernabe, Méx",19.465556,-99.703889,2571,México,Temoaya,12,Alto Lerma
+SBBMX,"José Antonio Alzate, Méx.",19.465833,-99.704722,2571,México,Temoaya,12,Alto Lerma
+SLAMX,"San Luis Ameca, Méx.",19.190278,-98.870833,2279,México,Temamatla,26,Valle de México
+SMLMX,"Santa María del Llano, Méx.",19.633333,-99.8,2618,México,Ixtlahuaca,12,Alto Lerma
+SNLMX,"San Lucas, Méx.",19.644722,-98.858611,2240,México,Acolman,26,Valle de México
+TBRMX,"Tres Barrancas, Méx.",19.343056,-99.799167,2682,México,Almoloya de Juárez,12,Alto Lerma
+TESMX,"Texcaltitlán, Méx.",18.931389,-99.935833,2383,México,Texcaltitlán,12,Medio Balsas
+TJCMX,"El Tejocote, Méx.",19.856944,-99.905278,2449,México,Atlacomulco,26,Valle de México
+TMCMX,"Temascalcingo, Méx",19.904444,-100.023056,0,México,Temascalcingo,,Alto Lerma
+TROMX,"Trojes, Méx.",19.429167,-99.6125,2577,México,Temoaya,12,Medio Balsas
+TTLMX,"Totolica hidrométrica, Méx.",19.4525,-99.283056,2325,México,Naucalpan de Juárez,26,Valle de México
+TTQMX,"Tajo de Tequixquiac, Méx",19.904722,-99.123889,2229,México,Tequixquiac,2,Valle de México
+VDCMX,"Vaso de Cristo, Méx.",19.510278,-99.211667,2263,México,Tlalnepantla de Baz,26,Valle de México
+ADJMC,"Adjuntas, Mich.",17.968611,-102.195556,0,Michoacán de Ocampo,Guadalajara,,Bajo Lerma
+ADUMC,"Adjuntas, Mich.",20.231389,-101.99,1630,Michoacán de Ocampo,Numarán,12,Bajo Lerma
+ANGMC,"Angamacutiro, Mich. SMN*",20.125556,-101.722778,1949,Michoacán de Ocampo,Angamacutiro,,Medio Lerma
+CAMMC,"Camécuaro, Mich.",19.916667,-102.2125,93,Michoacán de Ocampo,Tangancícuaro,0,Bajo Lerma
+CBLMC,"Casa Blanca, Mich.",20.324167,-101.461389,1694,Michoacán de Ocampo,José Sixto Verduzco,12,Medio Lerma
+CHAMC,"Chaparaco, Mich.",19.973611,-102.265278,159,Michoacán de Ocampo,Zamora,12,Bajo Lerma
+CMNMC,"Caimanera, Mich.",18.5,-100.9,234,Michoacán de Ocampo,Huetamo,18,Medio Balsas
+CORMC,"Corrales, Mich.",20.207222,-101.861667,1693,Michoacán de Ocampo,Penjamillo,12,Bajo Lerma
+EGIMC,"El Gigante, Mich.",19.966667,-100.45,1961,Michoacán de Ocampo,Maravatío,12,Alto Lerma
+ESTMC,"La Estanzuela, Mich.",20.116667,-102.370833,1551,Michoacán de Ocampo,Ixtlán,0,Alto Lerma
+LCAMC,"La Calera, Mich.",18.429167,-100.997222,0,Michoacán de Ocampo,Zirándaro,0,Medio Balsas
+LPDMC,"La Piedad, Mich.",20.354444,-102.004444,1672,Michoacán de Ocampo,La Piedad,12,Bajo Lerma
+LPNMC,"Los Panches, Mich.",18.848611,-102.133333,207,Michoacán de Ocampo,La Huacana,18,Bajo Balsas (Tepalcatepec)
+LPSMC,"La Pastoría, Mich.",18.8,-102.2,221,Michoacán de Ocampo,La Huacana,18,Bajo Balsas (Tepalcatepec)
+LPZMC,"Los Pinzanes, Mich.",18.8,-101.2,199,Michoacán de Ocampo,Huetamo,18,Bajo Balsas (Tepalcatepec)
+RCEMC,"Río Celio, Mich.",19.972222,-102.295,1568,Michoacán de Ocampo,Zamora,12,Bajo Lerma
+SCRMC,"San Cristóbal, Mich.",20.208333,-102.464722,1561,Michoacán de Ocampo,Vista Hermosa,12,Bajo Lerma
+TLAMC,"Río Tlazazalca, Mich.",19.970278,-102.059722,1797,Michoacán de Ocampo,Tlazazalca,12,Bajo Lerma
+VJIMC,"Villa Jiménez, Mich.",19.55,-101.45,1980,Michoacán de Ocampo,Huiramba,12,Alto Lerma
+YURMC,"Yurécuaro, Mich.",20.339444,-102.242222,1537,Michoacán de Ocampo,Ayotlán,12,Bajo Lerma
+ALUMR,"Alpuyeca, Mor.",18.734722,-99.258056,1041,Morelos,Xochitepec,18,Medio Balsas
+AMCMR,"Amacuzac, Mor.",18.596111,-99.376944,911,Morelos,Amacuzac,18,Medio Balsas
+CRDMR,"Canal Rodeo, Mor.",18.764444,-99.331944,1088,Morelos,Miacatlán,18,Medio Balsas
+CUAMR,"Cuautla, Mor.",18.808611,-98.948889,1303,Morelos,Cuautla,18,Medio Balsas
+CXXMR,"Canal Xoxocotla, Mor.",18.735,-99.258333,1018,Morelos,Xochitepec,18,Bajo Balsas (Tepalcatepec)
+ESTMR,"Las Estacas, Mor.",18.725,-98.1125,1130,Morelos,Tlaltizapán de Zapata,18,Alto Balsas
+LCUMR,"La Cuera, Mor.",18.683611,-98.914444,1186,Morelos,Ayala,18,Medio Balsas
+PERMR,"Canal Perritos, Mor.",18.784167,-99.315278,1099,Morelos,Miacatlán,18,Medio Balsas
+TEMMR,"Temixco, Mor.",18.856944,-99.223611,1265,Morelos,Jiutepec,18,Medio Balsas
+TICMR,"Ticumán, Mor.",18.794167,-99.103889,988,Morelos,Tlaltizapán de Zapata,18,Medio Balsas
+TTAMR,"Tetlama, Mor.",18.833333,-99.278333,1208,Morelos,Temixco,0,Medio Balsas
+XICMR,"Xicatlacotla, Mor.",18.528889,-99.190278,814,Morelos,Tlaquiltenango,18,Medio Balsas
+YAHMR,"Yautepec, Mor.",18.899167,-99.050556,1244,Morelos,Yautepec,18,Medio Balsas
+ZCTMR,"Observatorio de Zacatepec, Mor.",18.651389,-99.196667,932,Morelos,Zacatepec,18,Medio Balsas
+ACANR,"Acaponeta, Nay.",22.49,-105.354167,52,Nayarit,Acaponeta,11,Presidio San Pedro
+CAINR,"El Caimán, Nay.",21.201389,-104.080556,0,Nayarit,La Yesca,12,Rio Bajo Santiago
+CAPNR,"Capomal, Nay.",21.831111,-105.1125,13,Nayarit,Santiago Ixcuintla,12,Rio Bajo Santiago
+CHPNR,"Chapalagana, Nay.",21.944167,-104.5,320,Nayarit,Del Nayar,12,Rio Bajo Santiago
+GAVNR,"Gaviotas, Nay.",20.889722,-105.136667,56,Nayarit,Bahía de Banderas,14,Río Ameca
+JMANR,"Jesús María, Nay.",22.250833,-104.516944,960,Nayarit,Del Nayar,12,Rio Bajo Santiago
+LESNR,"La Estancia, Nay.",22.558333,-105.341667,90,Nayarit,Acaponeta,12,Presidio San Pedro
+MOLNR,"Mololoa, Nay.",21.516111,-104.889722,620,Nayarit,Tepic,12,Rio Bajo Santiago
+PAJNR,"Pajaritos, Nay.",22.377778,-105.020833,245,Nayarit,Del Nayar,11,San Pedro - Rosa Morada
+ROMNR,"Rosamorada, Nay.",22.119722,-105.211667,30,Nayarit,Rosamorada,12,San Pedro - Rosa Morada
+RUINR,"Ruiz, Nay.",21.958333,-105.1425,24,Nayarit,Ruiz,11,San Pedro - Rosa Morada
+ADJNL,"Las Adjuntas, N.L.",24.883333,-99.680556,385,Nuevo León,Hualahuises,25,San Fernando
+ALDNL,"Los Aldamas, N.L.",26.023611,-99.195833,288,Nuevo León,Doctor Coss,24,Río San Juan
+ARNNL,"Arenal, N.L.",25.813889,-98.975,335,Nuevo León,General Bravo,24,Río San Juan
+BOCNL,"La Boca, N.L.",25.425833,-100.145833,515,Nuevo León,Santiago,24,Río San Juan
+CABNL,"Cabezones, N.L.",24.99,-99.743889,480,Nuevo León,Montemorelos,25,San Fernando
+CAMNL,"Camacho, N.L.",24.871944,-99.578889,350,Nuevo León,Linares,25,San Fernando
+CDFNL,"Ciénega de Flores, N.L.",25.952222,-100.172222,380,Nuevo León,Ciénega de Flores,24,Río San Juan
+CDRNL,"Cadereyta, N.L.",25.590278,-99.975,330,Nuevo León,Cadereyta Jiménez,24,Río San Juan
+CPRNL,"José López Portillo, N.L.",24.9375,-99.399722,270,Nuevo León,Linares,25,San Fernando
+HERNL,"Los Herrera, N.L.",25.897778,-99.400833,240,Nuevo León,Los Herreras,24,Río San Juan
+LERNL,"Las Enramadas, N.L.",25.497222,-99.527222,230,Nuevo León,Los Ramones,24,Río San Juan
+MTMNL,"Montemorelos, N.L.",25.174167,-99.833333,375,Nuevo León,Montemorelos,24,Río San Juan
+PABNL,"Pablillo, N.L.",24.856944,-99.555556,2100,Nuevo León,Linares,25,San Fernando
+PAMNL,"La Pamona, N.L.",24.992778,-99.221667,195,Nuevo León,Linares,24,San Fernando
+RDSNL,"Rodríguez, N.L.",27.233333,-100.133333,161,Nuevo León,Anáhuac,24,Río Medio Bravo
+TPHNL,"Tepehuaje, N.L.",25.505278,-99.770833,250,Nuevo León,Cadereyta Jiménez,24,Río San Juan
+ASTOX,"Astata, Oax.",16.010833,-95.700556,80,Oaxaca,San Pedro Huamelula,0,Costa de Oaxaca
+BOQOX,"Boquilla 1, Oax.",16.647222,-95.929167,638,Oaxaca,Santa Ana Tavela,0,Río Tehuantepec
+CHIOX,"Chicapa, Oax.",16.583333,-94.816667,40,Oaxaca,Heroica Ciudad de Juchitán de Zaragoza,22,resto de la región
+CSPOX,"Cosolapa, Oax.",18.492778,-96.658333,135,Oaxaca,Acatlán de Pérez Figueroa,RH,Río Papaloapan
+DPSOX,"Dique Pescaditos, Oax.",18.1525,-96.388889,70,Oaxaca,San Miguel Soyaltepec,28,Río Papaloapan
+EMAOX,"El Marqués, Oax.",16.434722,-95.374444,98,Oaxaca,Santa María Jalapa del Marqués,22,resto de la región
+IXTOX,"Ixtepec, Oax.",16.583333,-95.1,69,Oaxaca,Ciudad Ixtepec,22,resto de la región
+JACOX,"Jacatepec, Oax.",17.866667,-96.2,42,Oaxaca,Santa María Jacatepec,28,Río Papaloapan
+NARPB,"Naranjastitla, Pue.",18.360278,-96.781389,0,Puebla,San Sebastián Tlacotepec,,Río Papaloapan
+OSTOX,"Ostuta, Oax.",16.5,-94.4,45,Oaxaca,Santo Domingo Zanatepec,22,resto de la región
+PA2OX,"Papaloapan 2, Oax.",18.166667,-96.083333,0,Oaxaca,San Juan Bautista Tuxtepec,28,Río Papaloapan
+PAPOX,"Papaloapan, Oax.",18.166667,-96.083333,14,Oaxaca,Cosamaloapan de Carpio,28,Río Papaloapan
+STDOX,"Santo Domingo, Oax.",18.05,-96.55,95,Oaxaca,San Felipe Jalapa de Díaz,28,Río Papaloapan
+TEQOX,"Tequisistlán, Oax.",16.416667,-95.6,170,Oaxaca,Magdalena Tequisistlán,22,Río Tehuantepec
+TUXOX,"Tuxtepec, Oax.",18.083333,-96.133333,21,Oaxaca,San Juan Bautista Tuxtepec,28,Río Papaloapan
+UCFOX,"Usila CFE, Oax.",17.933056,-96.435278,125,Oaxaca,San Felipe Usila,28,Río Papaloapan
+ZANOX,"Zanatepec, Oax.",16.4025,-94.216111,35,Oaxaca,San Pedro Tapanatepec,0,Costa de Chiapas
+BAIPB,"Buenos Aires CFE, Pue.",19.961389,-97.503333,0,Puebla,Tlatlauquitepec,27,Norte de Veracruz
+STLPB,"Sontalalco CFE, Pue.",19.952778,-97.486389,0,Puebla,Tlatlauquitepec,27,Norte de Veracruz
+TYAPB,"Tepeyac, Pue.",18.483611,-96.861389,100,Puebla,San Sebastián Tlacotepec,28,Río Papaloapan
+AJTSL,"Las Adjuntas, S.L.P.",21.972222,-98.558333,18,San Luis Potosí,Tamuín,26,Bajo Pánuco
+BLMSL,"Ballesmi, S.L.P.",21.748889,-98.955833,44,San Luis Potosí,Ciudad Valles,26,Bajo Pánuco
+GANSL,"Gallinas, S.L.P.",21.906944,-99.239444,280,San Luis Potosí,Aquismón,26,Bajo Pánuco
+MICSL,"Micos, S.L.P.",22.12,-99.159444,310,San Luis Potosí,Ciudad Valles,26,Bajo Pánuco
+PUJSL,"El Pujal, S.L.P.",21.847222,-98.939722,43,San Luis Potosí,Ciudad Valles,26,Bajo Pánuco
+RQTSL,"Requetemu, S.L.P.",21.425,-98.888611,82,San Luis Potosí,Axtla de Terrazas,26,Río Alto Pánuco
+STRSL,"Santa Rosa, S.L.P.",22.02,-99.055833,96,San Luis Potosí,Ciudad Valles,26,Bajo Pánuco
+SVTSL,"San Vicente, S.L.P.",21.692778,-98.617222,32,San Luis Potosí,San Vicente Tancuayalab,26,Bajo Pánuco
+TBLSL,"Tierra Blanca, S.L.P.",21.246667,-98.857222,155,San Luis Potosí,Tamazunchale,26,Río Alto Pánuco
+TMISL,"Observatorio de Tamuín, S.L.P.",22.003611,-98.773333,22,San Luis Potosí,Tamuín,26,Bajo Pánuco
+TMTSL,"Temamatla, S.L.P.",21.241111,-98.758889,125,San Luis Potosí,Tamazunchale,26,Río Alto Pánuco
+TZBSL,"Tanzabaca, S.L.P.",21.663889,-99.213333,196,San Luis Potosí,Jalpan de Serra,26,Bajo Pánuco
+ACTSI,"Acatitán, Sin.",24.047222,-106.654167,15,Sinaloa,San Ignacio,10,Planicie de Sinaloa
+AL2SI,"El Varejonal hidrométrica, Sin.",25.090278,-107.383333,111,Sinaloa,Badiraguato,10,Rio Culiacán
+BCBSI,"Bacubirito, Sin.",25.816667,-107.916667,280,Sinaloa,Sinaloa,10,Río Sinaloa
+BDRSI,"Badiraguato, Sin.",25.333333,-107.5375,280,Sinaloa,Badiraguato,10,Rio Culiacán
+CHXSI,"Observatorio de Choix, Sin.",26.736111,-108.329167,350,Sinaloa,Choix,10,Río Fuerte
+GB2SI,"El Sabinal hidrométrica, Sin.",26.083333,-108.316667,150,Sinaloa,Sinaloa,10,Río Sinaloa
+GD2SI,"Bacurato hidrométrica de Gustavo Díaz Ordaz, Sin.",25.855278,-107.911944,1470,Sinaloa,Sinaloa,10,Río Sinaloa
+GGNSI,"Guaguana, Sin.",26.05,-107.85,350,Sinaloa,Sinaloa,10,Río Sinaloa
+GSVSI,"Guasave, Sin.",25.716667,-108.466667,30,Sinaloa,Guasave,10,Río Sinaloa
+GTNSI,"Guatenipa, Sin.",25.344444,-107.225,290,Sinaloa,Badiraguato,10,Rio Culiacán
+IXPSI,"Ixpalino, Sin.",23.955556,-106.595833,300,Sinaloa,San Ignacio,10,Planicie de Sinaloa
+JNASI,"Jaina, Sin.",25.9,-108.013889,200,Sinaloa,Sinaloa,10,Río Sinaloa
+LD2SI,"Huites hidrométrica, Sin.",26.904167,-108.35,168,Sinaloa,Choix,10,Río Fuerte
+LDCSI,"Luis Donaldo Colosio, Sin.",26.844722,-108.367778,168,Sinaloa,Choix,10,Río Fuerte
+QLTSI,"Quelite, Sin.",23.5625,-106.466667,60,Sinaloa,Mazatlán,10,Planicie de Sinaloa
+RAVSI,"Estación Rancho Viejo, Sin.",25.124722,-107.755833,60,Sinaloa,Mocorito,,Río Mocorito
+RSRSI,"Rosario, Sin.",22.983333,-105.85,32,Sinaloa,Rosario,11,Presidio San Pedro
+SCRSI,"Santa Cruz, Sin.",24.484722,-106.952778,109,Sinaloa,Cosalá,10,Río Elotla
+SJNSI,"San Juan, Sin.",25.486667,-107.8425,144,Sinaloa,Mocorito,10,Rio Culiacán
+SN2SI,"Sanalona hidrométrica, Sin.",24.813889,-107.158333,170,Sinaloa,Culiacán,10,Rio Culiacán
+TBRSI,"San Francisco, Chih.",26.9425,-107.973333,400,Chihuahua,Urique,10,Río Fuerte
+TORSI,"Las Tortugas, Sin.",23.088333,-105.846944,54,Sinaloa,Rosario,1,Presidio San Pedro
+CCRSO,"Cocoraque, Son.",27.416667,-109.625,100,Sonora,Quiriego,9,Yaqui - Matapé
+CJNSO,"El Cajón, Son.",29.472222,-110.736389,390,Sonora,San Miguel de Horcasitas,9,Sonora
+CZNSO,"Cazanate, Son.",26.603611,-108.7625,60,Sonora,Alamos,9,Río Fuerte
+ECBSO,"El Cubil, Son.",29.2,-109.233333,350,Sonora,Sahuaripa,9,Yaqui - Matapé
+NYNSO,"Sonoyta, Son.",31.866667,-112.85,350,Sonora,General Plutarco Elías Calles,8,Río Sonoyta
+ORGSO,"El Orégano, Son.",29.229722,-110.706111,272,Sonora,Hermosillo,9,Sonora
+PDNSO,"Paso Nácori, Son.",29.433333,-109.083333,533,Sonora,Nácori Chico,9,Yaqui - Matapé
+PTASO,"Punta de Agua 2, Son.",28.472222,-110.308333,250,Sonora,Guaymas,9,Yaqui - Matapé
+PTQSO,"Pitiquito, Son.",30.697778,-112.116667,300,Sonora,Caborca,9,Río Concepción
+SBNSO,"San Bernardo, Son.",27.411944,-108.876667,162,Sonora,Alamos,9,Río Mayo
+SRSSO,"Santa Rosa 2, Son.",30.394722,-111.445278,537,Sonora,Trincheras,9,Río Concepción
+TSOSO,"Tesocoma, Son.",27.658333,-109.2125,320,Sonora,Quiriego,9,Río Mayo
+BDCTB,"Boca del Cerro, Tab.",17.433333,-91.483333,100,Tabasco,Tenosique,30,Grijalva - Usumacinta
+EMUTB,"Villahermosa Muelle, Tab.",17.98,-92.916667,10,Tabasco,Centro,30,Bajo Grijalva
+GABTB,"Gaviotas 2, Tab.",17.966667,-92.916667,-2,Tabasco,Centro,0,Bajo Grijalva
+GONTB,"González, Tab.",17.975,-93,1,Tabasco,Centro,30,Bajo Grijalva
+MACTB,"Macuspana, Tab.",17.766667,-92.6,60,Tabasco,Macuspana,30,Grijalva - Usumacinta
+OXOTB,"Oxolotán, Tab.",17.380556,-92.75,100,Tabasco,Tacotalpa,30,Bajo Grijalva
+PNVTB,"Pueblo Nuevo, Tab.",17.854167,-92.879167,60,Tabasco,Centro,30,Bajo Grijalva
+PUYTB,"Puyacatengo, Tab.",17.566667,-92.9375,72,Tabasco,Teapa,30,Bajo Grijalva
+SAMTB,"Samaria, Tab.",17.996944,-93.275556,72,Tabasco,Cunduacán,30,Bajo Grijalva
+SPTTB,"San Pedro, Tab.",17.791667,-91.158333,21,Tabasco,Balancán,30,Grijalva - Usumacinta
+TAPTB,"Tapijulapa, Tab.",17.456944,-92.778611,60,Tabasco,Tacotalpa,30,Bajo Grijalva
+TEATB,"Teapa, Tab.",17.566667,-92.966667,72,Tabasco,Teapa,30,Bajo Grijalva
+AHLTP,"Ahualulco, Tamps.",22.986944,-99.145556,82,Tamaulipas,Gómez Farías,26,Río Soto la Marina
+BALTP,"Bombas Altamira, Tamps.",22.386111,-97.926944,2,Tamaulipas,Altamira,26,Bajo Pánuco
+BRRTP,"El Barretal, Tamps.",24.1025,-99.215,226,Tamaulipas,Hidalgo,25,Río Soto la Marina
+CORTP,"Corona, Tamps.",23.887222,-98.936667,150,Tamaulipas,Güémez,25,Río Soto la Marina
+ENNTP,"La Encantada, Tamps.",23.384444,-99.078611,375,Tamaulipas,Llera,26,Bajo Pánuco
+LSRTP,"La Servilleta, Tamps.",22.852778,-99.120556,210,Tamaulipas,El Mante,26,Bajo Pánuco
+MAGTP,"Magueyes, Tamps.",24.567778,-99.551944,420,Tamaulipas,Mainero,25,Río Soto la Marina
+MGSTP,"Magiscatzín Dos, Tamps.",22.795833,-98.705556,40,Tamaulipas,González,26,Bajo Pánuco
+PADTP,"Padilla, Tamps.",24.043889,-98.903611,154,Tamaulipas,Padilla,25,Río Soto la Marina
+PDMTP,"Paso de Molina, Tamps.",23.726667,-98.745833,122,Tamaulipas,Casas,25,Río Soto la Marina
+PVLTP,"Puerto de Valles, Tamps.",24.184444,-99.597778,555,Tamaulipas,Hidalgo,25,Río Soto la Marina
+RFRTP,"Río Frío, Tamps.",22.843056,-99.026111,60,Tamaulipas,Xicoténcatl,26,Bajo Pánuco
+SBNTP,"Sabinas, Tamps.",23.031389,-99.093056,100,Tamaulipas,Gómez Farías,26,Bajo Pánuco
+SGBTP,"San Gabriel, Tamps.",23.085556,-98.7875,140,Tamaulipas,Xicoténcatl,26,Bajo Pánuco
+TMOTP,"El Tomaseño, Tamps.",24.251389,-99.436111,413,Tamaulipas,Hidalgo,25,Río Soto la Marina
+TMSTP,"Tamesí, Tamps.",22.413611,-98.421944,12,Tamaulipas,González,26,Bajo Pánuco
+ARCVC,"Ángel Rosario Cabada, Ver.",18.583333,-95.4375,19,Veracruz de Ignacio de la Llave,Ángel Rosario Cabada,28,Río Papaloapan
+CRDVC,"Cardel, Ver.",19.364722,-96.374444,28,Veracruz de Ignacio de la Llave,La Antigua,28,Actopan - La Antigua
+CTTVC,"Cuatotolapan, Ver.",18.144444,-95.295833,14,Veracruz de Ignacio de la Llave,Hueyapan de Ocampo,28,Río Papaloapan
+ESPVC,"El Espinal, Ver.",20.2575,-97.399167,100,Veracruz de Ignacio de la Llave,Espinal,,Norte de Veracruz
+GARVC,"Garro, Ver.",18.270556,-95.556944,20,Veracruz de Ignacio de la Llave,Isla,28,Río Papaloapan
+HGOVC,"El Higo, Ver.",21.773611,-98.459167,50,Veracruz de Ignacio de la Llave,El Higo,27,Bajo Pánuco
+HLSVC,"Los Hules, Ver.",21.194444,-98.2875,75,Veracruz de Ignacio de la Llave,Chalma,26,Bajo Pánuco
+MDTVC,"Martínez de la Torre, Ver.",20.0675,-97.048333,50,Veracruz de Ignacio de la Llave,Martínez de la Torre,27,Norte de Veracruz
+OLVVC,"El Olivo, Ver.",21.832222,-98.503889,25,Veracruz de Ignacio de la Llave,Pánuco,26,Bajo Pánuco
+PDTVC,"Paso del Toro, Ver.",19.041667,-96.140833,8,Veracruz de Ignacio de la Llave,Medellín de Bravo,27,Actopan - La Antigua
+PNCVC,"Pánuco, Ver.",22.06,-98.176667,10,Veracruz de Ignacio de la Llave,Pánuco,27,Bajo Pánuco
+PRCVC,"Poza Rica, Ver.",20.540833,-97.478333,50,Veracruz de Ignacio de la Llave,Poza Rica de Hidalgo,27,Norte de Veracruz
+PSNVC,"Platón Sánchez, Ver.",21.297778,-98.356667,80,Veracruz de Ignacio de la Llave,Tantoyuca,26,Bajo Pánuco
+SJEVC,"San Juan Evangelista, Ver.",17.883333,-95.133333,29,Veracruz de Ignacio de la Llave,San Juan Evangelista,28,Río Papaloapan
+LCEVC,"La Ceibilla, Ver.",18.229722,-95.445278,36,Veracruz de Ignacio de la Llave,Isla,28,Río Papaloapan
+MINVC,"Minatitlán, Ver.",17.983333,-94.533333,60,Veracruz de Ignacio de la Llave,Minatitlán,29,Coatzacoalcos
+TLCVC,"Tlacotalpan, Ver.",18.6,-95.65,5,Veracruz de Ignacio de la Llave,Tlacotalpan,28,Río Papaloapan
+TMOVC,"Tierra Morada, Ver.",17.571944,-94.163333,10,Veracruz de Ignacio de la Llave,Las Choapas,29,Coatzacoalcos
+TMPVC,"Tempoal, Ver.",21.499722,-98.409444,38,Veracruz de Ignacio de la Llave,Tempoal,26,Bajo Pánuco
+TRRVC,"Terrerillos, Ver.",21.039722,-98.153056,106,Veracruz de Ignacio de la Llave,Chicontepec,27,Bajo Pánuco
+VAZVC,"Villa Azueta, Ver.",18.075,-95.7,14,Veracruz de Ignacio de la Llave,José Azueta,28,Río Papaloapan
+ELPZC,"El Platanito, Zac.",22.611389,-104.050833,1030,Zacatecas,Valparaíso,12,Rio Bajo Santiago
+LFLZC,"La Florida, Zac.",22.686944,-103.603056,1840,Zacatecas,Valparaíso,12,Rio Bajo Santiago
+SFOZC,"San Francisco, Zac.",24.322222,-102.884444,1690,Zacatecas,General Francisco R. Murguía,36,Río Aguanaval
+B24215,"San Ambrosio, Chih.",27.579167,-105.366667,0,Chihuahua,San Francisco de Conchos,24,Río Conchos
+B005ALR,ABELARDO L. RODRIGUEZ,32.446944,-116.905833,120,Baja California,Tijuana,9,
+B006ABR,ABELARDO RODRIGUEZ,21.916667,-102.426944,0,Aguascalientes,Jesús María,12,
+B01002,LA PUERTA,32.543889,-116.678333,480,Baja California,Tecate,,
+B01034,EL ALAMAR,32.528333,-116.900556,80,Baja California,Tijuana,1,
+B010AGZ,ABRAHAM GONZALEZ,28.516667,-107.633333,2220,Chihuahua,Guerrero,9,
+B015ACH,ACHIMEC,22.325833,-103.225833,1850,Jalisco,Huejúcar,12,
+B016ABN,ING. AURELIO BENASSINI,24.121667,-106.695,35,Sinaloa,San Ignacio,10,
+B020ALM,ADOLFO LOPEZ MATEOS,25.090278,-107.383333,111,Sinaloa,Badiraguato,10,
+B025ARC,ADOLFO RUIZ CORTINEZ,27.220278,-109.104167,148,Sonora,Álamos,9,
+B03009,HUERTA VIEJA,26.24,-112.026389,0,Baja California Sur,Comondú,3,
+B030AGO,AGOSTITLAN,19.55,-100.942222,0,Michoacán de Ocampo,Tzitzio,18,
+B035AOB,ALVARO OBREGON,27.481389,-109.938056,116,Sonora,Cajeme,9,
+B041AMI,LA AMISTAD,29.444167,-101.06,350,Coahuila de Zaragoza,Acuña,,
+B042BRJ,"Barraje de Ibarra, Mich.",20.236111,-102.616111,0,Michoacán de Ocampo,Briseñas,12,
+B043ANG,LA ANGOSTURA,19.9125,-104.056944,0,Jalisco,El Limón,30,
+B045BBD,PRESA BASILIO VADILLO,19.9125,-104.056944,0,Jalisco,El Limón,16,
+B047CAB,CABORCA,30,-111.1,0,Sonora,Opodepe,36,
+B055CLL,PRESA CALLES,22.142222,-102.415556,2020,Aguascalientes,San José de Gracia,12,
+B06003,SAN BARTOLO,23.716667,-109.883333,395,Baja California Sur,La Paz,6,
+B06004,SAN ANTONIO,23.8,-110.05,375,Baja California Sur,La Paz,6,
+B06008,EL CAJONCITO,24.159722,-110.161111,210,Baja California Sur,La Paz,6,
+B060CHH,PRESA CHIHUAHUA,28.569722,-106.166389,1900,Chihuahua,Chihuahua,24,
+B062CTA,CINCUENTA ANIVERSARIO,22.188611,-102.466944,2050,Aguascalientes,San José de Gracia,12,
+B065COI,PRESA COINTZIO,19.625,-101.281111,2096,Michoacán de Ocampo,Morelia,12,
+B068COM,EL COMAQUITO,30.933333,-110.816667,960,Sonora,Imuris,8,
+B070CON,CONSTITUCION 1917,20.418333,-100.0725,1295,Querétaro,San Juan del Río,26,
+B075CUA,PRESA CUAUHTEMOC,30.878333,-111.516667,590,Sonora,Tubutama,8,
+B080CRT,PRESA CUARENTA,21.5,-101.7,0,Jalisco,Lagos de Moreno,12,
+B085DAM,PRESA DANXHO,19.9,-99.6,1249,México,Jilotepec,26,
+B086DGZ,PRESA DE GONZALO,20.3,-102.4,0,Michoacán de Ocampo,Tanhuato,18,
+B09002,NAVOJOA,27.104167,-109.438889,54,Sonora,Navojoa,9,
+B09011,LA JUNTA,28.758333,-107.983333,2053,Chihuahua,Temósachic,9,
+B09017,EL OREGANO,29.233333,-110.704167,272,Sonora,Hermosillo,9,
+B09022,HORNOS,27.741667,-109.9,50,Sonora,Cajeme,9,
+B09027,HERMOSILLO,29.066667,-110.916667,200,Sonora,Hermosillo,9,
+B09032,CHICULI,27.75,-109.9,51,Sonora,Cajeme,9,
+B09039,TESIA KM. 1 + 457,27.163889,-109.366667,50,Sonora,Navojoa,9,
+B09068,TEZOCOMA,27.683333,-109.233333,320,Sonora,Quiriego,9,
+B09082,EL CUBIL,29.216667,-109.233333,350,Sonora,Sahuaripa,9,
+B09083,LA GUADALUPE,28.95,-108.708333,850,Sonora,Sahuaripa,9,
+B09089,COCORAQUE,27.415,-109.628333,100,Sonora,Quiriego,9,
+B09090,EL CAJON,29.472222,-110.736389,390,Sonora,San Miguel de Horcasitas,9,
+B090CAZ,EL CAZADERO,23.693056,-103.093611,1920,Zacatecas,Río Grande,36,
+B095CTN,PRESA CENTENARIO,20.589444,-100.406667,1820,Querétaro,Querétaro,26,
+B10027,EL BLEDAL,24.804167,-107.145833,0,Sinaloa,Culiacán,10,
+B10031,GUAMUCHIL,25.469444,-108.091667,60,Sinaloa,Salvador Alvarado,10,
+B10036,JAINA,25.9,-108.013889,200,Sinaloa,Sinaloa,10,
+B10037,HUITES,26.883333,-108.366667,168,Sinaloa,Choix,10,
+B10038,SAN BLAS,26.104167,-108.75,100,Sinaloa,El Fuerte,10,
+B10040,SANTA CRUZ,24.484722,-106.952778,0,Sinaloa,Cosalá,10,
+B10053,ALAMOS,26.393056,-108.741667,389,Sonora,Álamos,10,
+B10063,BATOPILAS,27.022222,-107.7375,565,Chihuahua,Batopilas de Manuel Gómez Morín,10,
+B10064,CHINIPAS,27.416667,-108.541667,490,Chihuahua,Chínipas,10,
+B10065,IXPALINO,23.955556,-106.595833,300,Sinaloa,San Ignacio,10,
+B10070,ACATITAN,24.047222,-106.654167,15,Sinaloa,San Ignacio,10,
+B10077,PALO DULCE,27.016667,-108.416667,400,Sinaloa,Choix,10,
+B10079,BADIRAGUATO,25.333333,-107.5375,280,Sinaloa,Badiraguato,10,
+B10086,PERICOS,25.093056,-107.694444,600,Sinaloa,Mocorito,10,
+B10087,TAMAZULA,24.933333,-106.975,1580,Durango,Tamazula,10,
+B10088,GUATENIPA,25.344444,-107.225,290,Sinaloa,Badiraguato,10,
+B10094,SAN IGNACIO,26.870833,-107.879167,355,Chihuahua,Batopilas de Manuel Gómez Morín,10,
+B10098,CAZANATE,26.604167,-108.7625,137,Sonora,Álamos,10,
+B100CHI,PRESA EL CHIQUE,22,-102.889722,1620,Zacatecas,Tabasco,12,
+B10100,URIQUE 2,27.302778,-107.838889,599,Chihuahua,Urique,10,
+B10102,GUERACHIC,26.813056,-107.072778,2430,Chihuahua,Guachochi,10,
+B10104,SIQUIRICHIC,27.283333,-107.220833,2100,Chihuahua,Guachochi,10,
+B10110,TOAHAYANA,26.170833,-107.704167,1400,Chihuahua,Guadalupe y Calvo,10,
+B10111,PIAXTLA,23.933333,-106.425,1110,Puebla,Tehuitzingo,10,
+B10113,LA HUERTA,25.369444,-106.7,1600,Durango,Topia,10,
+B10120,GUASAVE PUENTE CARRETERA,25.576667,-108.456667,30,Sinaloa,Guasave,10,
+B10136,LA GUAGUANA,26.05,-107.85,350,Sinaloa,Sinaloa,10,
+B10137,TECUSIAPA,25.855556,-107.376389,0,Sinaloa,Badiraguato,10,
+B10143,COFRADIA,26.3,-108.3,400,Sinaloa,El Fuerte,10,
+B10145,BACUBIRITO,25.816667,-107.916667,280,Sinaloa,Sinaloa,10,
+B102EST,EL ESTRIBON,21.2,-102.9,0,Jalisco,Yahualica de González Gallo,12,
+B104ECU,EL CUCHILLO,25.718056,-99.256111,210,Nuevo León,China,24,
+B105MOL,PRESA EL MOLINO,20.1,-99.7,2740,México,Jilotepec,26,
+B11008,SAN FELIPE,24,-104.598889,0,Durango,Durango,11,
+B11012,SAN PEDRO,21.966667,-105.15,0,Nayarit,Rosamorada,11,
+B11014,ACAPONETA,22.483333,-105.341667,52,Nayarit,Acaponeta,11,
+B11027,EL SALTITO,23.976667,-104.301667,2538,Durango,Pueblo Nuevo,11,
+B11029,CANATLAN,24.513889,-104.783333,1950,Durango,Canatlán,11,
+B11030,EL BEJUCO,22.0125,-105.15,13,Nayarit,Rosamorada,11,
+B11035,LA BALLONA,22.533333,-105.45,10,Nayarit,Acaponeta,11,
+B11039,SAN PEDRO,21.9875,-105.141667,15,Nayarit,Rosamorada,11,
+B11040,VICENTE GUERRERO,23.746667,-103.970278,1913,Durango,Vicente Guerrero,11,
+B11046,ROSAMORADA,22.133333,-105.2,44,Nayarit,Rosamorada,11,
+B11058,SIQUEROS,23.008333,-106.25,6,Sinaloa,Mazatlán,11,
+B11074,LA ESTANCIA,22.591667,-105.341667,90,Nayarit,Huajicori,11,
+B11075,PAJARITOS,22.377778,-105.020833,245,Nayarit,Del Nayar,11,
+B11082,CUCHARAS,22.35,-105.183333,0,Nayarit,Acaponeta,12,
+B110NIA,PRESA EL NIAGARA,21.778889,-102.441389,1828,Aguascalientes,Aguascalientes,12,
+B115PAT,EL PALOTE,21.166667,-101.666667,1856,Guanajuato,León,12,
+B12007,SALAMANCA,20.383333,-101.166667,1721,Guanajuato,Salamanca,12,
+B12014,PASARELA VILLA JIMENEZ,19.916667,-101.745833,1971,Michoacán de Ocampo,Jiménez,12,
+B12022,REFORMA NUMERO 1,20.191667,-100.883333,1761,Guanajuato,Santiago Maravatío,12,
+B12023,REFORMA NUMERO 2,20.195833,-100.883333,1764,San Luis Potosí,Villa de Guadalupe,12,
+B12034,MARAVATIO,20.198333,-100.904167,2024,Michoacán de Ocampo,Maravatío,12,
+B12067,EMENGUARO,20.170833,-100.875,1765,Guanajuato,Salvatierra,12,
+B12093,ZINZIMEO,19.870833,-100.976389,0,Michoacán de Ocampo,Tzitzio,12,
+B12095,YURECUARO,20.341667,-102.270833,1537,Michoacán de Ocampo,Yurécuaro,12,
+B120PRR,PRESA EL PARRAL,26.9,-105.7,1776,Chihuahua,Hidalgo del Parral,24,
+B12104,ACAMBARO,20.05,-100.733333,1850,Guanajuato,Acámbaro,12,
+B12128,CORONA,20.404167,-103.083333,1521,Jalisco,Chapala,12,
+B12209,EL TAMBOR,19.994444,-100.2375,0,Michoacán de Ocampo,Contepec,12,
+B12210,VERTEDOR POTRERILLOS,22.234722,-102.435278,0,Aguascalientes,Rincón de Romos,12,
+B12219,COINTZIO,19.641667,-101.258333,2096,Michoacán de Ocampo,Morelia,12,
+B12221,ATAPANEO,19.725,-101.176389,0,Michoacán de Ocampo,Morelia,12,
+B12233,CORRALES,20.195833,-101.804167,1693,Michoacán de Ocampo,Penjamillo,12,
+B12238,PERICOS,20.525,-101.108333,1722,Guanajuato,Salamanca,12,
+B12277,SAN BARTOLO,19.815278,-101.011111,1858,Michoacán de Ocampo,Álvaro Obregón,12,
+B12278,ATOYAC,20.016667,-103.483333,1373,Jalisco,Atoyac,12,
+B12280,TUNEL NUMERO 2,22.234722,-102.442778,2094,Jalisco,Jalostotitlán,12,
+B12281,KM. 1 +400 (PRESA JOCOQUE),22.133056,-102.345,1841,Aguascalientes,Pabellón de Arteaga,12,
+B12283,ZACAPENDO,19.815278,-101.004167,1858,Michoacán de Ocampo,Indaparapeo,12,
+B12288,ZAPOTLANEJO,20.404167,-103.0875,1521,Jalisco,Chapala,12,
+B12310,LA ESTANZUELA,20.116667,-102.370833,1551,Michoacán de Ocampo,Ixtlán,12,
+B12312,COINTZIO,19.6375,-101.256944,1884,Michoacán de Ocampo,Morelia,12,
+B12314,QUERENDARO,19.811667,-100.889444,1862,Michoacán de Ocampo,Queréndaro,12,
+B12328,GUARACHA,19.958333,-102.579167,0,Michoacán de Ocampo,Jiquilpan,12,
+B12338,SAN ANTONIO GUARACHA,19.945833,-102.558333,0,Michoacán de Ocampo,Villamar,12,
+B12341,SALIDA TUNEL,19.633333,-101.259167,1956,Michoacán de Ocampo,Morelia,12,
+B12344,PLATANAL,19.941667,-102.258333,1586,Michoacán de Ocampo,Tangancícuaro,12,
+B12349,SOLIS,20.05,-100.666667,1884,Guanajuato,Acámbaro,12,
+B12350,LA BEGOÑA 2,20.845833,-100.829167,1836,Guanajuato,San Miguel de Allende,12,
+B12352,SALAMANCA 2,20.566667,-101.2,1723,Guanajuato,Salamanca,12,
+B12358,AJOJUCAR,21.541667,-102.440278,1751,Jalisco,Teocaltiche,12,
+B12359,EL SALTO,20.526389,-103.168611,0,Jalisco,Mexticacán,12,
+B12365,EL SALTO,19.6375,-101.259722,1955,Michoacán de Ocampo,Morelia,12,
+B12370,SAN GASPAR,21.284722,-102.497222,1740,Jalisco,Jalostotitlán,12,
+B12374,LA Y,19.406111,-99.589444,2566,México,Otzolotepec,12,
+B12376,SALVATIERRA,20.216667,-100.904167,1740,Guanajuato,Salvatierra,12,
+B12377,OTZOLOTEPEC,19.4,-99.576389,2568,México,Otzolotepec,12,
+B12378,PRESA CALLES,22.138333,-102.413889,2020,Aguascalientes,San José de Gracia,12,
+B12379,JACONA,19.983333,-102.304167,0,Michoacán de Ocampo,Zamora,12,
+B12382,PASO DEL SABINO,21.316667,-102.538889,1699,Jalisco,Teocaltiche,12,
+B12390,CAMECUARO,19.916667,-102.2125,93,Michoacán de Ocampo,Tangancícuaro,12,
+B12391,LAS ADJUNTAS,20.679167,-101.854167,1741,Guanajuato,Manuel Doblado,12,
+B12392,PUENTE MEXTEPEC,19.65,-99.941667,2560,México,San Felipe del Progreso,12,
+B12394,SANTA JULIA,20.395833,-101.025,1723,Guanajuato,Jaral del Progreso,12,
+B12395,UREPETIRO,19.975,-102.1375,1807,Michoacán de Ocampo,Tlazazalca,12,
+B12397,CAMECUARO,19.916667,-102.216667,0,Michoacán de Ocampo,Tangancícuaro,12,
+B12402,KM. 0 +262,19.659722,-99.951944,0,México,San Felipe del Progreso,12,
+B12408,EL AGUILA,19.979167,-102.258333,0,Michoacán de Ocampo,Zamora,12,
+B12409,CHAPARACO,19.970833,-102.266667,1632,Michoacán de Ocampo,Zamora,12,
+B12412,JARIPO,19.958333,-102.6,0,Michoacán de Ocampo,Villamar,12,
+B12418,LOS CASTILLOS,21.175,-101.679167,1874,Guanajuato,León,12,
+B12422,CUARENTA 2,21.488889,-101.752778,1998,Jalisco,Lagos de Moreno,12,
+B12423,PUENTE ATLACOMULCO,19.788889,-99.893056,2496,México,Atlacomulco,12,
+B12424,PUERTA DEL MONTE,20.264444,-101.033889,1742,Guanajuato,Jaral del Progreso,12,
+B12428,BOLAÑOS,21.825,-103.783333,916,Jalisco,Bolaños,12,
+B12438,LA YESCA,21.193056,-104.090278,420,Jalisco,Tequila,12,
+B12439,ORANDINO 2,19.966667,-102.329167,0,Michoacán de Ocampo,Jacona,12,
+B12441,LA BOQUILLA,21.058333,-103.397222,0,Jalisco,San Cristóbal de la Barranca,12,
+B12454,LAGOS,21.3625,-101.913889,1942,Jalisco,Lagos de Moreno,12,
+B12466,JERECUARO,20.141667,-100.522222,1931,Guanajuato,Jerécuaro,12,
+B12469,CUIXTLA,21.051389,-103.441667,816,Jalisco,San Cristóbal de la Barranca,12,
+B12470,HUAYNAMOTA,21.843056,-104.711111,960,Nayarit,Del Nayar,12,
+B12471,SAN CRISTOBAL,21.048611,-103.443056,1561,Michoacán de Ocampo,Vista Hermosa,12,
+B12476,KM. 0 +340,21.481944,-101.741667,0,Jalisco,Lagos de Moreno,12,
+B12477,JARAL,20.341667,-101.058333,1726,Guanajuato,Cortázar,12,
+B12484,EL PLATANITO,22.568056,-104.063056,0,Zacatecas,Valparaíso,12,
+B12485,EL ZAPOTE,22.065556,-103.398611,1458,Jalisco,Totatiche,12,
+B12486,CAPITIRO,20.2875,-101.020833,1734,Guanajuato,Jaral del Progreso,12,
+B12487,LA FLORIDA,22.686389,-103.603611,1870,Zacatecas,Valparaíso,12,
+B12488,LA GLORIA,22.068056,-103.396389,1465,Zacatecas,Valparaíso,12,
+B12489,TEOCALTICHE,21.441667,-102.58,0,Jalisco,Teocaltiche,12,
+B12493,CASTILLOS,21.191667,-101.666667,1874,Guanajuato,León,12,
+B12494,PLANTA POTABILIZADORA,19.676389,-101.1875,0,Michoacán de Ocampo,Morelia,12,
+B12496,CAPOMAL,21.825,-105.118056,13,Nayarit,Santiago Ixcuintla,12,
+B12504,LA CUÑA,21.004167,-102.833056,1700,Jalisco,Yahualica de González Gallo,12,
+B12511,ORANDINO,19.966667,-102.325,1647,Michoacán de Ocampo,Jacona,12,
+B12512,SILAO,20.958333,-101.441667,1782,Guanajuato,Silao de la Victoria,12,
+B12514,EL CAIMAN,21.201389,-104.080556,0,Nayarit,La Yesca,12,
+B12516,MOLOLOA,21.502778,-104.879167,620,Nayarit,Tepic,12,
+B12521,SANTA ROSA 2,20.922222,-103.726389,740,Jalisco,Amatitán,12,
+B12532,SAN CRISTOBAL 2,21.038889,-103.429167,816,Jalisco,San Cristóbal de la Barranca,12,
+B12533,UREPETIRO 2,19.95,-102.154167,0,Michoacán de Ocampo,Tangancícuaro,12,
+B12534,ATOTONILCO 2,19.452778,-99.776389,0,México,Almoloya de Juárez,12,
+B12535,CINCO SEÑORES,20.958333,-100.916667,1808,Guanajuato,San Miguel de Allende,12,
+B12539,SAN BERNABE,19.472778,-99.72,2571,México,Temoaya,12,
+B12541,LA RED,20.719444,-102.798611,1758,Jalisco,Acatic,12,
+B12543,CALIXTLAHUACA,19.338889,-99.6875,2635,México,Toluca,12,
+B12545,EL NIÁGARA 3,21.779167,-102.375,1810,Aguascalientes,Aguascalientes,12,
+B12556,CERRO BLANCO,21.415,-104.572778,1000,Nayarit,Santa María del Oro,12,
+B12557,CUQUIO,20.973611,-103.033333,1799,Jalisco,Cuquío,12,
+B12558,EL BATAN,20.504167,-100.416667,1881,Querétaro,Huimilpan,12,
+B12560,XOCONOLE,19.801944,-101.008333,0,Michoacán de Ocampo,Álvaro Obregón,12,
+B12568,EL TEJOCOTE,19.856111,-99.910278,2431,México,Atlacomulco,12,
+B12570,LA CODORNIZ,21.988889,-102.683333,1783,Aguascalientes,Calvillo,12,
+B12572,LA EXPERIENCIA,20.730556,-103.331944,1550,Jalisco,Guadalajara,12,
+B12573,LA EXPERIENCIA,20.729167,-103.329167,1580,Jalisco,Guadalajara,12,
+B12574,LOS VELAZQUEZ,19.419444,-99.866667,2559,México,Villa Victoria,12,
+B12578,PUENTE LOS VELASQUEZ,19.424167,-99.868056,2557,México,Villa Victoria,12,
+B12579,EL PINITO,22.608889,-103.941944,1858,Jalisco,Huejuquilla el Alto,12,
+B12581,SAN BARTOLO DEL LLANO,19.6,-99.709722,2547,México,Jiquipilco,12,
+B12585,CALERITA,21.475,-102.593056,0,Jalisco,Teocaltiche,12,
+B12588,EL PLAN,19.819444,-101.011111,1823,Michoacán de Ocampo,Álvaro Obregón,12,
+B12589,HUASCATO,20.483333,-102.254167,1619,Jalisco,Jesús María,12,
+B12592,SANTA MARIA DEL LLANO,19.633333,-99.722222,2527,México,Ixtlahuaca,12,
+B12602,BOCA DEL TESORERO,22.825278,-102.957778,2166,Zacatecas,Jerez,12,
+B12605,TEMASCALES 2,20.0625,-100.151389,2409,Querétaro,Amealco de Bonfil,12,
+B12609,UREPETIRO,19.95,-102.154167,0,Michoacán de Ocampo,Tangancícuaro,12,
+B12611,HACIENDA DE SANCHEZ,20.220833,-100.9,1768,Guanajuato,Salvatierra,12,
+B12615,PALOMAS (SALIDAS PRESA PALOMAS),22.345,-102.806944,2089,Zacatecas,Villanueva,12,
+B12619,KM. 0 +050,21.991667,-102.681944,1790,Aguascalientes,Calvillo,12,
+B12627,PASARELA SOLIS,20.05,-100.666667,1888,Guanajuato,Acámbaro,12,
+B12628,LA BOQUILLA,21.058333,-103.397222,0,Jalisco,San Cristóbal de la Barranca,12,
+B12655,ATOTONILCO I,19.443611,-99.773611,2570,México,Almoloya de Juárez,12,
+B12656,EL NIAGARA,21.7875,-102.375,1828,Aguascalientes,Aguascalientes,12,
+B12664,EL GIGANTE,19.966667,-100.45,1961,Michoacán de Ocampo,Maravatío,12,
+B12669,MEDIA LUNA,21.793056,-102.806944,1585,Aguascalientes,Calvillo,12,
+B12674,LA TRINIDAD,20.666667,-101.3125,1732,Guanajuato,Irapuato,12,
+B12681,LOS SABINOS,21.941111,-104.553889,1964,Nayarit,Del Nayar,12,
+B12686,JESUS MARIA,22.250833,-104.516944,960,Nayarit,Del Nayar,12,
+B12710,YURÉCUARO 2,20.333333,-102.252222,1534,Michoacán de Ocampo,Yurécuaro,12,
+B12711,EL MEZQUITE,20.34,-102.246389,0,Jalisco,Ayotlán,12,
+B12712,EL ZAPOTE,20.336111,-102.248889,0,Michoacán de Ocampo,Yurécuaro,12,
+B12713,ANGAMACUTIRO 2,20.1375,-101.708333,0,Michoacán de Ocampo,Angamacutiro,12,
+B12715,PUENTE DOLORES,21.166944,-100.899722,1837,Guanajuato,Dolores Hidalgo Cuna de la Independencia Nacional,12,
+B12717,EL CHAPIN,20.871389,-101.235556,1860,Guanajuato,Guanajuato,12,
+B12718,AMECHE,20.558333,-100.5875,1786,Guanajuato,Apaseo el Grande,12,
+B12719,TRES GUERRAS,20.520833,-100.772222,0,Guanajuato,Celaya,12,
+B12720,SAN NICOLÁS 3,20.202222,-100.889444,1758,Guanajuato,Salvatierra,12,
+B12728,TEPALCATES,20.740278,-101.370833,1770,Guanajuato,Irapuato,12,
+B12729,TROJES,19.428333,-99.611944,2577,México,Temoaya,12,
+B12730,ATEQUIZA,20.404167,-103.0875,1528,Jalisco,Chapala,12,
+B12733,CHAPALAGANA,21.945,-104.508056,320,Nayarit,Del Nayar,12,
+B12741,LA LOMA,19.288333,-99.556667,2570,México,Lerma,12,
+B12749,ATEQUIZA 2,20.398333,-103.094444,1521,Jalisco,Chapala,12,
+B12750,UREPETIRO,19.95,-102.154167,0,Michoacán de Ocampo,Tangancícuaro,12,
+B12751,TLACOPA NUMERO 1,19.3175,-99.633333,2600,México,Toluca,12,
+B12752,TLACOPA NUMERO 2,19.3175,-99.633333,2600,México,Toluca,12,
+B12753,TLACOPA NUMERO 3,19.3175,-93.633333,2600,México,Toluca,12,
+B12755,ANGAMACUTIRO 2,20.133333,-101.704167,0,Michoacán de Ocampo,Angamacutiro,12,
+B12756,ANGAMACUTIRO 2,20.133333,-101.704167,0,Michoacán de Ocampo,Angamacutiro,12,
+B12759,EL CUBO,20.280278,-100.899444,1740,Guanajuato,Salvatierra,12,
+B12764,ATEMAJAC,20.723056,-102.34,2350,Jalisco,Guadalajara,12,
+B12765,SAN ANDRES,20.715,-103.281667,0,Jalisco,Guadalajara,12,
+B12767,LA SAUCEDA,21.351389,-101.851111,1940,Jalisco,Lagos de Moreno,12,
+B12768,RANCHO DE ENMEDIO,22.562222,-103.588889,0,Zacatecas,Monte Escobedo,12,
+B12769,AMADO NERVO,21.730556,-105.036667,0,Nayarit,Santiago Ixcuintla,12,
+B12771,VICENTE GUERRERO,22.315833,-103.439722,1925,Zacatecas,Monte Escobedo,12,
+B12773,KM. 0 +412 (PRESA MEDIA LUNA),21.804444,-102.785556,0,Aguascalientes,Calvillo,12,
+B12774,AHUETITA,21.398611,-103.647778,1711,Jalisco,Tequila,12,
+B12778,TENZOMPA,22.376111,-103.924444,1700,Jalisco,Huejuquilla el Alto,12,
+B12781,PRESA MOCHA,21.45,-101.683333,0,Jalisco,Lagos de Moreno,12,
+B12789,PRESA SALAZAR SALIDAS,19.305,-99.390556,2989,México,Ocoyoacac,12,
+B12791,BOCAS,22.416667,-103.725833,1743,Jalisco,Mezquitic,12,
+B12792,ARELLANOS,21.766944,-102.968611,1495,Zacatecas,Huanusco,12,
+B12908,ARANDAS,20.7125,-101.370833,1740,Guanajuato,Irapuato,12,
+B12926,IXTLAHUACA,19.5675,-99.769444,2544,México,Ixtlahuaca,12,
+B12928,TRES BARRANCAS,19.333333,-99.8,0,México,Almoloya de Juárez,12,
+B12929,EL BARRIAL,21.05,-101.983333,1736,Jalisco,Unión de San Antonio,12,
+B12930,EL BARRIAL,21.05,-101.833333,2043,Guanajuato,San Francisco del Rincón,12,
+B12932,ZINZIMEO,19.825556,-101.008333,1858,Michoacán de Ocampo,Álvaro Obregón,12,
+B12934,KM. 0 +100 (PRESA 50 ANIVERSARIO),22.188611,-102.466944,2050,Aguascalientes,San José de Gracia,12,
+B12937,ZULA,20.399722,-102.716667,0,Jalisco,Ocotlán,12,
+B12938,MALTARAÑA,20.3,-102.666667,0,Jalisco,Jamay,12,
+B12939,EL PURGATORIO,20.8,-103.25,0,Jalisco,Ixtlahuacán del Río,12,
+B12941,CUIXTLA,21.616667,-103.438889,1816,Zacatecas,Tepechitlán,12,
+B12943,KM. 0+710 (EXTRACCIONES),19.608333,-104.525,490,Jalisco,Casimiro Castillo,12,
+B13001,PASO DE AROCHA,21.283333,-105.075,20,Nayarit,Compostela,13,
+B13004,EL CUALE,20.596389,-105.219722,0,Jalisco,Puerto Vallarta,13,
+B130REJ,PRESA EL REJON,28.610556,-106.109722,1480,Chihuahua,Chihuahua,24,
+B135ROD,LAGUNA EL RODEO,18.8,-99.4,1200,Morelos,Miacatlán,18,
+B14005,PALO VERDE,20.766389,-103.95,0,Jalisco,Etzatlán,14,
+B14007,LAS GAVIOTAS 2,20.908333,-105.125,50,Nayarit,Bahía de Banderas,14,
+B14008,LA DESEMBOCADA,20.733333,-105.158333,250,Jalisco,Puerto Vallarta,14,
+B14009,LA VEGA,20.583333,-103.866667,0,Jalisco,Mixtlán,14,
+B14010,PUENTE AMECA,20.55,-104.05,0,Jalisco,Ameca,14,
+B14011,PUENTE FF. CC. 2,20.591667,-103.858333,500,Jalisco,La Huerta,14,
+B14013,CORRINCHIS,20.475,-104.775,0,Jalisco,Atemajac de Brizuela,14,
+B14014,EL COLOMO,20.9,-105.116667,50,Nayarit,Bahía de Banderas,14,
+B14015,LA VEGA,20.591667,-103.85,0,Jalisco,Tala,14,
+B14016,LA VEGA,20.583333,-103.866667,1521,Jalisco,Cocula,14,
+B14017,EL SALITRE,20.533333,-103.866667,1606,Jalisco,Atotonilco el Alto,14,
+B14018,SAN MARTIN HIDALGO,20.441667,-103.941667,1373,Jalisco,Zacoalco de Torres,14,
+B14020,SAN JUANITO,20.8,-104.008333,0,Jalisco,San Juanito de Escobedo,14,
+B14025,LA VEGA 2,20.591667,-103.85,1480,Jalisco,Teuchitlán,14,
+B14026,LA CALERA,22.5,-103.35,1825,Zacatecas,Monte Escobedo,14,
+B14027,LAS GAVIOTAS,19.616667,-104.45,450,Jalisco,Casimiro Castillo,14,
+B14028,LAS GAVIOTAS,19.233333,-104.566667,13,Jalisco,Cihuatlán,14,
+B14029,CORRINCHIS 2,20.475,-104.775,2126,Jalisco,Concepción de Buenos Aires,14,
+B14030,KM. 0 +490,20.5,-104.75,0,Jalisco,Mascota,14,
+B14031,EL RODEO,20.251667,-104.5875,1320,Jalisco,Ayutla,14,
+B140TIN,EL TINTERO,29.5625,-107.397222,1725,Chihuahua,Buenaventura,34,
+B141TUL,PRESA EL TULE,20.733333,-102.4,2033,Jalisco,Arandas,12,
+B144ELZ,EMILIO LOPEZ ZAMORA,31.104167,-116.168333,70,Baja California,Ensenada,2,
+B145END,PRESA ENDO,20.163889,-99.36,2048,Hidalgo,Tepetitlán,26,
+B146ERA,ESTUDIANTE RAMIRO CABALLERO DORANTES,22.622778,-98.688333,50,Tamaulipas,González,26,
+B147EPG,EMILIO PORTES GIL,22.941944,-98.788611,12,Tamaulipas,Xicoténcatl,26,
+B15001,CIHUATLAN,19.241667,-104.566667,10,Jalisco,Cihuatlán,15,
+B15002,EL CHIFLON,19.627778,-104.555278,490,Jalisco,Casimiro Castillo,15,
+B15005,CUIXMALA,19.391667,-104.966667,380,Colima,Manzanillo,15,
+B15008,CIHUATLAN,19.233333,-104.566667,10,Jalisco,Cihuatlán,15,
+B15009,LA ZOPILOTA,19.6,-104.491667,405,Jalisco,Casimiro Castillo,15,
+B15010,TECOMATES,19.558333,-104.5,405,Jalisco,Casimiro Castillo,15,
+B15011,CIHUATLAN,19.25,-104.566667,10,Jalisco,Cihuatlán,15,
+B15012,EL CARMESI,19.608333,-104.525,125,Colima,Manzanillo,15,
+B15014,HIGUERA BLANCA 2,19.660833,-105.1625,30,Colima,Manzanillo,15,
+B15017,MANUEL AVILA CAMACHO,19.311389,-104.259167,320,Colima,Manzanillo,15,
+B15020,KM. 5 +596,20.016389,-105.2,0,Jalisco,Tomatlán,15,
+B150EBU,EUSTAQUIO BUELNA,25.466667,-108.083333,0,Sinaloa,Salvador Alvarado,10,
+B155FIM,FRANCISCO I. MADERO,28.165278,-105.625,1220,Chihuahua,Rosales,24,
+B16004,COLIMAN,18.951389,-103.945,24,Colima,Tecomán,16,
+B16013,QUITO I,19.197222,-104.335278,412,Colima,Manzanillo,16,
+B16014,QUITO 2,19.525,-103.416667,1708,Michoacán de Ocampo,Tangancícuaro,16,
+B16017,LAS CONCHAS,18.858333,-103.641667,1694,Michoacán de Ocampo,José Sixto Verduzco,16,
+B16018,TACOTAN,20.033333,-104.316667,660,Colima,Comala,16,
+B16020,EL NOGAL,19.891667,-103.8,1828,Jalisco,Tapalpa,16,
+B16021,SAN GREGORIO,19.833333,-103.35,360,Colima,Tecomán,16,
+B16022,CALLEJONES,18.8,-103.625,24,Colima,Tecomán,16,
+B16024,EL CORCOVADO,19.841667,-104.291667,1693,Michoacán de Ocampo,Penjamillo,16,
+B16026,EL GRULLO,19.85,-104.316667,800,Colima,Manzanillo,16,
+B16027,EL GRULLO,19.85,-104.283333,1831,Michoacán de Ocampo,Copándaro,16,
+B16029,TACOTÁN 2,20.025,-104.325,450,Colima,Comala,16,
+B16030,TACOTAN D. A.,20.033333,-104.316667,1523,Michoacán de Ocampo,Briseñas,16,
+B16031,CANOAS,19.525,-103.883333,760,Jalisco,Tolimán,16,
+B16032,COLIMAN,18.941667,-103.941667,30,Colima,Tecomán,16,
+B16033,EL ROSARIO,19.666667,-103.991667,2415,Michoacán de Ocampo,Senguio,16,
+B16034,PEÑITAS,19.316667,-103.816667,450,Colima,Villa de Álvarez,16,
+B16035,CALLEJONES,18.8,-103.625,480,Colima,Cuauhtémoc,16,
+B16036,LAS PEÑITAS 2,19.325,-103.825,450,Colima,Comala,16,
+B16038,MADRID,19.126944,-103.884722,200,Colima,Coquimatlán,16,
+B16040,LAS PIEDRAS,19.908333,-104.075,1961,Michoacán de Ocampo,Maravatío,16,
+B16050,PASO DEL RIO,18.958333,-103.95,1950,Michoacán de Ocampo,Huaniqueo,16,
+B16052,JALA,19.921111,-100.862222,1830,Michoacán de Ocampo,Zinapécuaro,16,
+B16055,EL GUAYABO,19.016389,-103.383056,1820,Jalisco,Pihuamo,16,
+B16057,CALLEJONES,18.833333,-103.619167,24,Michoacán de Ocampo,Coahuayana,16,
+B16061,EL CORCOVADO,19.850833,-104.283056,2078,Michoacán de Ocampo,Maravatío,16,
+B165FVL,FRANCISCO VILLA,24.001667,-103.960278,1961,Durango,Poanas,11,
+B170FZA,FRANCISCO ZARCO,25.273611,-103.776667,1200,Durango,Lerdo,36,
+B175GVI,GUADALUPE VICTORIA,22.746389,-102.506389,2258,Zacatecas,Guadalupe,11,
+B176GPE,DE GUADALUPE,19.633333,-99.25,2290,México,Cuautitlán Izcalli,26,
+B18005,SAN JACINTO,19.154167,-98.241667,0,Tlaxcala,Cuautlancingo,18,
+B18089,EL RODEO 2,18.775,-99.333333,1195,Morelos,Miacatlán,18,
+B180GUA,PRESA GUARACHA,19.9,-102.7,0,Michoacán de Ocampo,Jiquilpan,12,
+B18129,LOS GRANJENOS,19.93,-102.879167,1805,Jalisco,Quitupan,18,
+B18135,PANOTLA,19.308333,-98.2625,2400,Tlaxcala,Chiautempan,18,
+B18140,XICOTZINGO,19.166667,-98.25,0,Tlaxcala,Xicohtzinco,18,
+B18148,ECHEVERRIA,18.970833,-98.283333,2075,Puebla,San Andrés Cholula,18,
+B18153,BALCON DEL DIABLO,18.908333,-98.095833,2060,Puebla,Puebla,18,
+B18174,SAN JOSE,18.808333,-99.95,1301,Morelos,Cuautla,18,
+B18175,OACALCO,18.904167,-99.029167,1363,Morelos,Xochitepec,18,
+B18176,EL ZAPOTE,18.8125,-98.95,1302,Morelos,Cuautla,18,
+B18177,EL ALMEAL,18.8125,-98.95,1302,Morelos,Cuautla,18,
+B18192,AGUA DULCE,18.808333,-98.933333,1303,Morelos,Cuautla,18,
+B18193,YAUTEPEC,18.895833,-99.05,1360,Morelos,Yautepec,18,
+B18197,ITZAMATITLAN,18.904167,-99.020833,1365,Morelos,Yautepec,18,
+B18199,OAXTEPEC,18.9,-98.966667,1360,Morelos,Yautepec,18,
+B181GBA,GUILLERMO BLAKE AGUILAR,26.083333,-108.316667,150,Sinaloa,Sinaloa,10,
+B18200,COCOYOC,18.9,-98.966667,1360,Morelos,Yautepec,18,
+B18204,TAZA GRANDE,18.8375,-98.954167,1300,Morelos,Cuautla,18,
+B18219,PERRITOS NUMERO 2,18.779167,-99.329167,1200,Morelos,Miacatlán,18,
+B18223,TICUMAN,18.791667,-99.104167,1130,Morelos,Tlaltizapán de Zapata,18,
+B18225,CUAUTLA,18.808333,-99.95,1302,Morelos,Cuautla,18,
+B18231,TIQUICHEO,18.901389,-100.713889,0,Michoacán de Ocampo,Tiquicheo de Nicolás Romero,18,
+B18232,AMACUZAC,18.6,-99.370833,900,Morelos,Amacuzac,18,
+B18237,PORTEZUELO,18.958333,-98.279167,0,Puebla,Ocoyucan,18,
+B18264,ZACATEPEC,18.65,-99.195833,910,Morelos,Zacatepec,18,
+B18269,ALPUYECA,18.733333,-99.258333,1050,Morelos,Xochitepec,18,
+B18270,ALPUYECA,18.733333,-99.258333,1050,Morelos,Xochitepec,18,
+B18271,TEMIXCO,18.854167,-99.220833,1350,Morelos,Temixco,18,
+B18272,TEMIXCO,18.85,-99.225,1348,Morelos,Temixco,18,
+B18291,A-10 TEXCALTITLAN,18.929167,-99.941667,1347,México,Almoloya de Alquisiras,18,
+B18293,A-4 ALPANOCAN,18.875,-98.716667,0,Morelos,Tetela del Volcán,18,
+B18294,A-8 TOTOLMAJAC,18.933333,-99.683333,2070,México,Villa Guerrero,18,
+B18295,A-9 EL MOLINO,18.916667,-99.820833,2090,México,Coatepec Harinas,18,
+B182GDO,GUSTAVO DIAZ ORDAZ,25.855278,-107.911944,1470,Sinaloa,Sinaloa,10,
+B18311,EL GALLO,18.6875,-100.680556,0,Guerrero,Cutzamala de Pinzón,18,
+B18316,LA CUERA,18.683333,-98.916667,1300,Morelos,Ayala,18,
+B18322,TLAXCALA,19.320833,-98.241667,2250,Tlaxcala,Tlaxcala,18,
+B18323,TETLAMA,18.833333,-99.279167,1250,Morelos,Temixco,18,
+B18324,ATLANGA KM. 0 +220,19.558333,-98.195833,2480,Tlaxcala,Atlangatepec,18,
+B18325,ATLANGA KM. 0 +060,19.55,-98.2,2480,Tlaxcala,Atlangatepec,18,
+B18329,PINZAN MORADO,18.160556,-100.8875,0,Guerrero,Coyuca de Catalán,18,
+B18349,HUAMANTLA,19.316667,-97.854167,2400,Tlaxcala,Huamantla,18,
+B18354,HUAJUAPAN DE LEON,18.683333,-98.916667,0,Oaxaca,Heroica Ciudad de Huajuapan de León,18,
+B18358,LA CUERA,18.683333,-98.916667,1300,Morelos,Ayala,18,
+B18372,COATEPEQUITO,18.741667,-99.566667,1550,México,Zumpahuacán,18,
+B18375,LA CALERA,18.429167,-100.997222,0,Guerrero,Zirándaro,18,
+B18380,LA LAGUNA,17.383333,-98.029167,2050,Hidalgo,Acaxochitlán,27,
+B18395,COYOL,18.21,-100.740278,0,Ciudad de México,Gustavo A. Madero,18,
+B18406,LAS ESTACAS,18.725,-99.1125,1130,Puebla,La Magdalena Tlatlauquitepec,18,
+B18420,CORONDIRO,18.9875,-102.12,0,Michoacán de Ocampo,Múgica,18,
+B18421,CORONDIRO,18.9875,-102.116667,0,Michoacán de Ocampo,Múgica,18,
+B18425,PARACUARO NUMERO 2,19.148611,-102.219444,0,Michoacán de Ocampo,Parácuaro,18,
+B18426,PARACUARO NUMERO 3,19.147222,-102.226389,0,Michoacán de Ocampo,Parácuaro,18,
+B18427,PARACUARO NUMERO 4,19.151667,-102.225,0,Michoacán de Ocampo,Parácuaro,18,
+B18428,PARACUARO NUMERO 5,19.151389,-102.225,0,Michoacán de Ocampo,Parácuaro,18,
+B18429,PARACUARO NUMERO 6,19.151667,-102.225,0,Michoacán de Ocampo,Parácuaro,18,
+B18434,EL FRAILE,18.179167,-98.391667,0,Puebla,Axutla,18,
+B18436,ATENANGO DEL RIO,18.1125,-99.108333,0,Guerrero,Atenango del Río,18,
+B18437,XICATLACOTLA,18.520833,-99.191667,1000,Morelos,Tlaquiltenango,18,
+B18439,SAN JUAN TETELCINGO,17.916667,-99.520833,0,Guerrero,Mártir de Cuilapan,18,
+B18440,PAPALUTLA,18.016667,-98.9,0,Guerrero,Copalillo,18,
+B18453,EL MARQUEZ,19.069444,-102.073611,98,Oaxaca,Santa María Jalapa del Marqués,18,
+B18454,ZICUIRAN,18.936111,-101.927778,288,Michoacán de Ocampo,La Huacana,18,
+B18455,TAMACUARO,19.138889,-101.997222,0,Michoacán de Ocampo,Gabriel Zamora,18,
+B18460,RIO CHIQUITO,19.573611,-100.4625,0,Michoacán de Ocampo,Tuxpan,26,
+B18471,KM. 4+200,19.525,-100.479167,0,Michoacán de Ocampo,Tuxpan,26,
+B18487,LOS PINZANES,18.545833,-101.118056,0,Michoacán de Ocampo,Huetamo,18,
+B18494,LOS PANCHES,18.886111,-102.226667,0,Michoacán de Ocampo,Aguililla,18,
+B18495,LA PASTORIA,18.927778,-102.056944,0,Michoacán de Ocampo,La Huacana,18,
+B18496,EL CARRIZO,19.036111,-102.986111,0,Michoacán de Ocampo,Tepalcatepec,18,
+B18502,EL ZOPILOTE,19.206667,-102.2,0,Michoacán de Ocampo,Parácuaro,18,
+B18509,SANTA ANA,19.205,-102.583333,0,Michoacán de Ocampo,Buenavista,18,
+B18511,ZIMANCA,19.141667,-102.561111,0,Michoacán de Ocampo,Buenavista,18,
+B18513,LAS BURRAS,19.156667,-102.206944,0,Michoacán de Ocampo,Parácuaro,18,
+B18521,PRESA VALLE DE BRAVO,19.207778,-100.180833,0,México,Valle de Bravo,18,
+B18525,GUARANDICHO,19.134722,-102.455556,0,Michoacán de Ocampo,Buenavista,18,
+B18527,PUNTA DE AGUA,19.098611,-102.666667,0,Michoacán de Ocampo,Buenavista,18,
+B18528,PUNTA DE AGUA,19.100833,-102.663889,0,Michoacán de Ocampo,Buenavista,18,
+B18532,CHORROS DEL VARAL,19.505556,-102.581944,0,Michoacán de Ocampo,Peribán,18,
+B18534,LOS OLIVOS,19.216389,-102.883056,0,Jalisco,Jilotlán de los Dolores,18,
+B18540,TEMASCALTEPEC,19.037778,-100.065833,1700,México,Temascaltepec,18,
+B18554,EL MIRADOR,18.806111,-99.766667,1720,México,Coatepec Harinas,18,
+B18556,MEYUCA,18.864722,-99.781667,1850,México,Coatepec Harinas,18,
+B18557,EL TUNEL,18.9375,-99.236111,1558,Morelos,Cuernavaca,18,
+B18558,ABASOLO,32.833333,-116.453889,1550,Morelos,Cuernavaca,18,
+B18581,HUITZUCO,18.302222,-99.332778,975,Guerrero,Huitzuco de los Figueroa,18,
+B18584,ANDRES FIGUEROA,18.073333,-100.511389,0,Guerrero,Ajuchitlán del Progreso,18,
+B18591,PIEDRA CHINA,18.886667,-100.760833,0,Michoacán de Ocampo,Tiquicheo de Nicolás Romero,26,
+B18592,EL MANGO,18.886667,-100.721944,0,Michoacán de Ocampo,Tiquicheo de Nicolás Romero,26,
+B185HUA,PRESA HUAPANGO,20.066667,-99.7,2623,México,Aculco,26,
+B19002,COYUCA DE BENITEZ,17.004167,-100.095833,0,Guerrero,Coyuca de Benítez,19,
+B19003,COYUQUILLA,17.375,-101.058333,65,Guerrero,Petatlán,19,
+B19006,SAN LUIS,17.270833,-100.891667,0,Guerrero,Petatlán,19,
+B19008,KM. 21 +000,16.941667,-99.793056,0,Guerrero,Acapulco de Juárez,19,
+B19009,PETATLAN,17.536111,-101.283333,0,Guerrero,Petatlán,19,
+B19013,SAN JERONIMO,17.141667,-100.466667,20,Guerrero,Benito Juárez,19,
+B19014,SAN JERONIMITO,17.558333,-101.341667,20,Guerrero,Petatlán,19,
+B19016,LA UNION,17.991667,-101.820833,60,Guerrero,La Unión de Isidoro Montes de Oca,19,
+B190IAL,IGNACIO ALLENDE,20.833333,-100.816667,1820,Guanajuato,San Miguel de Allende,12,
+B191IRR,IGNACIO L. ALATORRE,28.433056,-110.392778,245,Sonora,Guaymas,9,
+B20005,OAXACA,17.048611,-96.729167,1519,Oaxaca,San Antonio de la Cal,20,
+B20016,QUETZALA,16.658333,-98.506944,50,Oaxaca,San Pedro Taviche,20,
+B20021,IXTAYUTLA,16.558333,-97.566667,510,Oaxaca,Santiago Ixtayutla,20,
+B20022,SAN CRISTOBAL,17.279167,-99.941667,900,Guerrero,Chilpancingo de los Bravo,20,
+B20023,ZIMATLAN,16.870833,-96.752778,1501,Oaxaca,Zimatlán de Álvarez,20,
+B20024,EL TOMATAL 2 Y 3,16.494167,-98.1125,80,Guerrero,Cuajinicuilapa,20,
+B20026,TLAPACOYAN,16.730556,-96.833333,1465,Oaxaca,Santa Cruz Mixtepec,20,
+B20027,OAXACA,17.027778,-96.709722,1515,Oaxaca,San Agustín de las Juntas,20,
+B20032,LA VENTA,17.104167,-99.558333,70,Oaxaca,Santo Domingo Ingenio,20,
+B20049,PRESA REVOLUCION MEXICANA,16.8,-99.2,0,Guerrero,Tecoanapa,20,
+B205JAR,PRESA JARIPO,19.9,-102.6,0,Michoacán de Ocampo,Villamar,12,
+B208JLP,PRESA JOSE LOPEZ PORTILLO,24.571389,-106.807778,1470,Sinaloa,Cosalá,10,
+B21004,ASTATA,16.009167,-95.753889,80,Oaxaca,San Pedro Huamelula,21,
+B21005,COZOALTEPEC,15.789722,-96.726389,100,Oaxaca,Santa María Tonameca,21,
+B21007,SAN ISIDRO,15.739167,-96.544722,30,Oaxaca,Santa María Tonameca,21,
+B210JAA,JOSE ANTONIO ALZATE,19.465556,-99.703889,2571,México,Temoaya,12,
+B212JRG,JAVIER ROJO GOMEZ,20.733333,-99.333333,0,Hidalgo,Zimapán,26,
+B215JOD,JOSEFA ORTIZ DE DOMINGUEZ,26.4125,-108.716667,0,Sinaloa,El Fuerte,10,
+B217JLA,JULIAN ADAME,22.120833,-102.859167,1703,Zacatecas,Villanueva,12,
+B22008,BOQUILLA NUMERO 1,16.647222,-95.929167,620,Oaxaca,Santa Ana Tavela,22,
+B22015,TEQUISISTLAN,16.413889,-95.597222,170,Oaxaca,Magdalena Tequisistlán,22,
+B22016,CHICAPA,16.570833,-94.808333,35,Oaxaca,Santo Domingo Ingenio,22,
+B22017,IXTEPEC,16.554167,-95.091667,0,Oaxaca,Ciudad Ixtepec,22,
+B22018,OSTUTA,16.5,-94.4375,35,Oaxaca,Santo Domingo Zanatepec,22,
+B22026,ZANATEPEC,16.483333,-94.366667,35,Oaxaca,San Pedro Tapanatepec,22,
+B22028,NILTEPEC,16.558333,-94.608333,46,Oaxaca,San Miguel Chimalapa,22,
+B22030,LAS CUEVAS 2,16.425,-95.3375,69,Oaxaca,Santa María Mixtequilla,22,
+B22032,KM. 2 +400,16.370833,-95.270833,46,Oaxaca,Santa María Mixtequilla,22,
+B22037,RIO HONDO,16.585278,-95.481389,164,Oaxaca,Santa María Jalapa del Marqués,22,
+B225BOQ,LA BOQUILLA,27.539444,-105.391667,1268,Chihuahua,San Francisco de Conchos,24,
+B23003,CAHUACAN,14.716667,-92.270833,50,Chiapas,Tapachula,23,
+B23005,TALISMAN I,14.9625,-92.15,148,Chiapas,Tuxtla Chico,23,
+B23007,SUCHIATE 2,14.683333,-92.133333,80,Chiapas,Suchiate,23,
+B23008,HUIXTLA,15.133333,-92.466667,40,Chiapas,Huixtla,23,
+B23009,PIJIJIAPAN,15.7,-93.216667,38,Chiapas,Pijijiapan,23,
+B23011,TONALA,16.070833,-93.75,55,Chiapas,Tonalá,23,
+B23012,NOVILLERO,15.4875,-92.95,150,Chiapas,Mapastepec,23,
+B23013,JESUS,15.866667,-93.483333,120,Chiapas,Tonalá,23,
+B23015,CACALUTA,15.35,-92.716667,80,Chiapas,Acacoyagua,23,
+B23016,CINTALAPA,15.308333,-92.733333,108,Chiapas,Cintalapa,23,
+B23017,COAPA,15.666667,-93.166667,100,Chiapas,Pijijiapan,23,
+B23018,MARGARITAS,16.320833,-91.979167,1512,Chiapas,Pijijiapan,23,
+B23019,DESPOBLADO,15.216667,-92.566667,115,Chiapas,Villa Comaltitlán,23,
+B23020,HUEHUETAN,15,-92.416667,65,Chiapas,Huehuetán,23,
+B23022,SAN NICOLAS,15.45,-92.895833,150,Chiapas,Mapastepec,23,
+B23023,TALISMAN 2,14.883333,-92.141667,350,Chiapas,Tuxtla Chico,23,
+B23034,TALISMAN 3,14.958889,-92.168056,350,Chiapas,Huehuetán,23,
+B23036,TRES PICOS,15.876111,-93.470833,55,Chiapas,Tonalá,23,
+B23047,ARRIAGA,16.241111,-93.8975,64,Chiapas,Arriaga,23,
+B230CAL,LA CALERA,21.7,-99.1,0,San Luis Potosí,Aquismón,18,
+B233CDZ,LA CODORNIZ,21.995556,-102.674722,1783,Aguascalientes,Calvillo,12,
+B235ESP,PRESA LA ESPERANZA,20.058889,-98.336111,2210,Hidalgo,Cuautepec de Hinojosa,26,
+B24026,SABINAS COAHUILA,27.841667,-101.120833,340,Coahuila de Zaragoza,Sabinas,24,
+B24038,RODRIGUEZ,27.233333,-100.133333,210,Nuevo León,Anáhuac,24,
+B24077,COLINA,27.5775,-105.371667,1214,Chihuahua,San Francisco de Conchos,24,
+B24087,CIENEGA DE FLORES,25.954167,-100.173611,415,Nuevo León,Ciénega de Flores,24,
+B24088,EL CUCHILLO,25.719444,-99.258333,210,Nuevo León,China,24,
+B240VEG,LA VEGA,20.6,-103.8,1260,Jalisco,Tala,14,
+B24150,PROGRESO,27.425,-100.983333,360,Coahuila de Zaragoza,Saltillo,24,
+B24192,MONTEMORELOS,25.179167,-99.833333,375,Nuevo León,Montemorelos,24,
+B24196,LOS HERRERAS,25.9125,-99.351389,240,Nuevo León,Los Herreras,24,
+B24198,MONTERREY,25.670833,-100.366667,500,Nuevo León,Monterrey,24,
+B24213,TECUAN,27.579167,-105.366667,0,Chihuahua,San Francisco de Conchos,24,
+B24215,SAN AMBROSIO,27.579167,-105.366667,0,Chihuahua,San Francisco de Conchos,24,
+B24216,FILTRACIONES PRESA LA BOQUILLA,27.55,-105.4,1323,Chihuahua,San Francisco de Conchos,24,
+B24225,JIMENEZ,27.141667,-104.918056,114,Tamaulipas,Jiménez,24,
+B24226,LAS BURRAS,28.545833,-105.422222,1093,Chihuahua,Julimes,24,
+B24285,RIO BRAVO EN PIEDRAS NEGRAS COAHUILA Y EAGLE PASS TEXAS,28.666667,-100.516667,0,Coahuila de Zaragoza,Piedras Negras,,
+B24291,ICAMOLE,25.916667,-100.733333,640,Nuevo León,García,24,
+B24299,ZAPATA,29,-101.9,0,Coahuila de Zaragoza,Zaragoza,,
+B24301,TEPEHUAJE,25.495833,-99.766667,250,Nuevo León,Cadereyta Jiménez,24,
+B24323,RIO BRAVO CERCA DE BROWNSVILLE TEXAS Y MATAMOROS TAMAULIPAS,25.833333,-97.522778,12,Tamaulipas,Matamoros,,
+B24327,CADEREYTA,25.590278,-99.975,330,Nuevo León,Cadereyta Jiménez,24,
+B24330,RAICES,25.25,-100.026389,1800,Nuevo León,Montemorelos,24,
+B24333,SABINAS HIDALGO,26.491667,-100.116667,280,Nuevo León,Sabinas Hidalgo,24,
+B24339,EL GRANERO,28.958333,-105.293056,1055,Chihuahua,Aldama,24,
+B24346,PARRAL,26.916667,-105.730556,1776,Chihuahua,Hidalgo del Parral,24,
+B24351,LOS ALDAMAS,26.023611,-99.195833,90,Nuevo León,Doctor Coss,24,
+B24377,CANDELA,26.843889,-100.647778,0,Coahuila de Zaragoza,Candela,24,
+B24385,CALLES (CONGREGACION),25.22,-99.94,440,Nuevo León,Montemorelos,24,
+B24387,LOS LERMAS,25.68,-100.188333,445,Nuevo León,Guadalupe,24,
+B24399,CANADA,25.801667,-100.271667,470,Nuevo León,General Escobedo,24,
+B24504,SIERRA MORENA,26.536667,-100.533333,500,Nuevo León,Bustamante,24,
+B24506,LAS BRISAS,25.395833,-99.545556,325,Nuevo León,General Terán,24,
+B24509,LA BOCA,24.843889,-98.158333,460,Nuevo León,Santiago,24,
+B245LCH,LAGO DE CHAPALA,20.3,-103.2,1523,Jalisco,Chapala,12,
+B25009,SAN FERNANDO,24.843889,-98.158333,0,Tamaulipas,Padilla,25,
+B25010,PABLILLO,24.856944,-99.555556,210,Nuevo León,Linares,25,
+B25012,EL BARRETAL,24.1025,-99.215,226,Tamaulipas,Hidalgo,25,
+B25015,PADILLA,24.0125,-98.772222,154,Tamaulipas,Padilla,25,
+B25025,PILON,24.033333,-98.729167,0,Tamaulipas,Padilla,25,
+B25027,CAMACHO,24.877778,-99.575,350,Nuevo León,Linares,25,
+B25030,CABEZONES,24.990278,-99.741667,390,Nuevo León,Montemorelos,25,
+B25033,LA SONADORA,23.961111,-98.6625,198,Tamaulipas,Padilla,25,
+B25034,PUERTO DE VALLES,24.155556,-99.595833,555,Tamaulipas,Hidalgo,25,
+B25040,MAGUEYES,24.569444,-99.558333,420,Tamaulipas,Mainero,25,
+B25042,CERRO PRIETO,24.943056,-99.383333,270,Nuevo León,Linares,25,
+B25043,EL TOMASEÑO,24.251389,-99.436111,0,Tamaulipas,Hidalgo,25,
+B25044,PURISIMA DE CONCHOS,24.923611,-99.256944,210,Nuevo León,Linares,25,
+B25064,EL NOGAL,24.5625,-99.554167,420,Tamaulipas,Mainero,25,
+B25069,MIRADORES,24.966667,-99.780556,1530,Veracruz de Ignacio de la Llave,Emiliano Zapata,25,
+B25089,VEGA NUMERO 3,23.949444,-98.469444,70,Tamaulipas,Abasolo,25,
+B25090,CRUZ,24.103056,-99.213056,226,Tamaulipas,Hidalgo,25,
+B25093,LA PAMONA,24.992222,-99.206667,195,Nuevo León,Linares,25,
+B25098,MARIANO MATAMOROS,23.989167,-98.485,60,Tamaulipas,Abasolo,25,
+B25099,LA CARRERA,24.693889,-99.6675,350,Nuevo León,Linares,25,
+B25102,BUENAVISTA,24.958611,-99.329722,235,Nuevo León,Linares,25,
+B25103,EL POPOTE,24.900833,-99.4975,153,Nuevo León,Linares,25,
+B25104,LAS ADJUNTAS,24.883333,-99.678333,400,Nuevo León,Hualahuises,25,
+B25107,SAN JUAN VAQUERIA,25.115278,-99.036111,160,Tamaulipas,Burgos,25,
+B25108,LA PRESA,22.238611,-99.543333,415,San Luis Potosí,Ciudad del Maíz,25,
+B25110,EL SOMBRERITO,23.255,-97.99,90,Tamaulipas,Aldama,25,
+B25111,REAL VIEJO,23.255,-97.99,90,Tamaulipas,Aldama,25,
+B25112,SUBIDA ALTA,23.911111,-99.113056,300,Tamaulipas,Güémez,25,
+B25114,SOTO LA MARINA,23.7675,-98.210833,38,Tamaulipas,Soto la Marina,25,
+B25116,ZAPATA,23.571389,-99.541944,0,Tamaulipas,Jaumave,25,
+B25117,EL CARMEN,24.066667,-99.254167,226,Tamaulipas,Hidalgo,25,
+B25118,LA PEÑITA,23.699444,-99.193056,360,Tamaulipas,Victoria,25,
+B25120,EL POPOTE 2,24.898611,-99.475,280,Nuevo León,Linares,25,
+B255LAM,LAGUNA DE AMELA,18.9,-103.866667,20,Colima,Tecomán,16,
+B26020,TAXHIE,20.225,-99.9,2220,México,Aculco,26,
+B26022,PASO DE TABLAS,20.55,-99.833333,1860,Querétaro,El Marqués,26,
+B26023,AHUALULCO,22.95,-99.118056,0,San Luis Potosí,Ahualulco,26,
+B26032,MOLINO BLANCO,19.4775,-99.220833,2326,México,Naucalpan de Juárez,26,
+B26039,KM. 6 + 250  ( ANTES KM. 6 + 500 ),19.476667,-99.091389,0,México,Nezahualcóyotl,26,
+B26054,SAN JUAN IXHUATEPEC,19.520833,-99.118611,2240,México,Tlalnepantla de Baz,26,
+B26057,TOTOLICA,19.465278,-99.244444,2325,México,Naucalpan de Juárez,26,
+B260LFR,LAGUNA DEL FRESNO,19.839167,-100.413333,2078,Michoacán de Ocampo,Maravatío,12,
+B26124,JASSO,19.9875,-99.323611,0,Tamaulipas,Aldama,26,
+B26137,IXMIQUILPAN A,20.4625,-99.226389,1700,Hidalgo,Ixmiquilpan,26,
+B26142,XICOTENCATL,22.968056,-98.968056,100,Tamaulipas,Xicoténcatl,26,
+B26151,TEQUISQUIAPAN,20.525,-99.895833,1912,Querétaro,Colón,26,
+B26170,SAN ILDEFONSO,20.208333,-99.966667,0,México,Aculco,26,
+B26181,DESVIACION ALTA PEDREGAL,19.3,-99.205,0,Ciudad de México,Tlalpan,26,
+B26183,CHAPINGO,19.485278,-98.884722,2250,México,Texcoco,26,
+B26184,SAN ANDRES,19.529167,-98.9125,2268,México,Texcoco,26,
+B26193,LA GRANDE,19.579167,-98.916667,0,México,Tezoyuca,26,
+B26194,TEPEXPAN,19.611389,-98.920278,0,México,Acolman,26,
+B26201,KM. 0 + 700,20.370833,-100.004167,1945,Querétaro,Corregidora,26,
+B26205,PASO DE TABLAS,20.55,-99.833333,1880,Querétaro,Colón,26,
+B26218,LA ENCANTADA,23.383333,-99.083333,375,Tamaulipas,Llera,26,
+B26221,SAN RAFAEL,23.316667,-99,1555,Nuevo León,Galeana,26,
+B26224,TAMUIN,22.002222,-98.768333,22,San Luis Potosí,Tamuín,26,
+B26241,BALLESMI,21.734722,-98.95,40,San Luis Potosí,Tanlajás,26,
+B26243,REQUETEMU,21.418056,-98.883333,82,San Luis Potosí,Axtla de Terrazas,26,
+B26244,EL HIGO,21.763889,-98.433333,50,Veracruz de Ignacio de la Llave,El Higo,26,
+B26248,TEMPOAL,21.533333,-98.383333,38,Veracruz de Ignacio de la Llave,Tempoal,26,
+B26249,MAGISCATZÍN 2,22.801389,-98.718056,40,Tamaulipas,González,26,
+B26255,LAS ADJUNTAS,25.983333,-98.566667,18,San Luis Potosí,Tamuín,26,
+B26257,CALACOAYA,19.525833,-99.250556,0,México,Tlalnepantla de Baz,26,
+B26262,SAN JOSE,20.3625,-100,1940,Querétaro,Cadereyta de Montes,26,
+B26263,SANTA ROSA,22.016667,-99.05,82,San Luis Potosí,Axtla de Terrazas,26,
+B26267,GALLINAS,21.934722,-99.25,300,San Luis Potosí,Tamasopo,26,
+B26268,TANSABACA,21.651389,-99.2,196,Querétaro,Jalpan de Serra,26,
+B26270,TIERRA BLANCA,21.218056,-98.884722,155,San Luis Potosí,Tamazunchale,26,
+B26272,EL PUJAL,21.834722,-99.918056,43,San Luis Potosí,Ciudad Valles,26,
+B26274,SAN MATEO,19.476944,-98.877778,0,México,Texcoco,26,
+B26277,LOS HULES,21.166667,-98.266806,75,Veracruz de Ignacio de la Llave,Chalma,26,
+B26280,LA SERVILLETA,22.85,-99.118056,210,Tamaulipas,Ocampo,26,
+B26282,EL ALAMO,20.5125,-98.625,1380,Hidalgo,San Agustín Metzquititlán,26,
+B26283,CANAL BAJO,22.95,-99.133333,82,Tamaulipas,Ocampo,26,
+B26285,MICOS,22.116806,-99.166667,310,San Luis Potosí,Ciudad Valles,26,
+B26289,TERRERILLOS,21.033472,-98.133472,106,Veracruz de Ignacio de la Llave,Chicontepec,26,
+B26291,TANCUILIN,21.384722,-98.868056,100,San Luis Potosí,Axtla de Terrazas,26,
+B26292,TANLACUT,21.668056,-99.284722,100,San Luis Potosí,Santa Catarina,26,
+B26293,TEMAMATLA,21.233472,-98.750139,125,San Luis Potosí,Tamazunchale,26,
+B26294,EL ALAMO,20.5125,-98.625,1380,Hidalgo,San Agustín Metzquititlán,26,
+B26295,EL ALAMO,20.5125,-98.625,1380,Hidalgo,San Agustín Metzquititlán,26,
+B26296,RIO FRIO,22.834722,-99.018056,60,Tamaulipas,Xicoténcatl,26,
+B26298,PRESA GUADALUPE,19.633333,-99.25,2290,México,Cuautitlán Izcalli,,
+B26309,SAN LUIS AMECA 2,19.183889,-99.87,0,México,Temamatla,26,
+B26313,KM. 27 + 250  ( ANTES KM. 27 + 000 ),19.641389,-99.053611,2250,México,Ecatepec de Morelos,26,
+B26320,TEPETITLAN,20.161111,-99.359722,2584,México,San Felipe del Progreso,26,
+B26341,OJO CALIENTE,21.85,-100.8,1790,San Luis Potosí,Santa María del Río,26,
+B26346,PUENTE COLGANTE,19.763889,-99.185,0,México,Teoloyucan,26,
+B26352,LAS ARBOLEDAS,19.562778,-99.215833,2280,México,Atizapán de Zaragoza,26,
+B26354,SAN LORENZO,19.7125,-99.195833,0,México,Cuautitlán,26,
+B26357,SAN MARTIN KM. 13 +521,19.616667,-99.191667,2253,México,Cuautitlán Izcalli,26,
+B26387,EL OLIVO,21.833472,-98.500139,25,Veracruz de Ignacio de la Llave,Pánuco,26,
+B26388,SABINAS,23.034722,-99.084722,100,Tamaulipas,Gómez Farías,26,
+B26389,VIGAS,21.784722,-99.85,920,San Luis Potosí,Rioverde,26,
+B26406,IXMIQUILPAN 2,20.481944,-99.220833,1700,Hidalgo,Ixmiquilpan,26,
+B26414,SALIDAS PRESA CONSTITUCION 1917,20.420278,-100.087222,1925,Querétaro,Corregidora,26,
+B26415,SAN VICENTE,21.689167,-98.609167,32,San Luis Potosí,San Vicente Tancuayalab,26,
+B26416,TAMESI,22.426667,-98.4275,12,Tamaulipas,González,26,
+B26424,PANUCO,22.0575,-98.170556,10,Veracruz de Ignacio de la Llave,Pánuco,26,
+B26430,AGUA BUENA,21.9525,-99.379722,372,San Luis Potosí,Tamasopo,26,
+B26433,PLATON SANCHEZ,21.293611,-98.335278,80,Veracruz de Ignacio de la Llave,Tantoyuca,26,
+B26435,LA H 2,20.3625,-100.079167,1940,Querétaro,Querétaro,26,
+B26439,CALACOAYA 3,19.525,-99.255278,0,México,Tlalnepantla de Baz,26,
+B26441,LOS REYES,19.3625,-98.961111,2260,Puebla,Huauchinango,26,
+B26442,Santa Cruz,19.504167,-99.221667,0,México,Tlalnepantla de Baz,26,
+B26447,SAN GABRIEL,23.083611,-98.787222,140,Tamaulipas,Xicoténcatl,26,
+B26453,MEDIA LUNA,21.883333,-100.068056,1010,San Luis Potosí,Rioverde,26,
+B26457,PRESA ITURBIDE,19.529167,-99.465,0,México,Isidro Fabela,26,
+B26461,SAN FELIPE ORIZATLAN,21.166667,-98.6,2370,Hidalgo,San Felipe Orizatlán,26,
+B26464,ATLAPEXCO,21.016667,-98.333333,0,Hidalgo,Atlapexco,26,
+B26470,SAN FELIPE ORIZATLAN,21.173889,-98.600556,160,Hidalgo,San Felipe Orizatlán,26,
+B26516,AMEALCO,19.526667,-99.160833,2640,Querétaro,Amealco de Bonfil,26,
+B26520,SAN ANDRES ATENCO,19.530556,-98.910278,0,México,Texcoco,26,
+B26807,TULANCINGO,20.083333,-98.369444,2222,Hidalgo,Tulancingo de Bravo,26,
+B26984,CALACOAYA 2,19.45,-99.241667,0,México,Tlalnepantla de Baz,26,
+B27001,MARTINEZ DE LA TORRE,20.061667,-97.038333,50,Veracruz de Ignacio de la Llave,Martínez de la Torre,27,
+B27002,POZA RICA,20.546667,-97.475,50,Veracruz de Ignacio de la Llave,Poza Rica de Hidalgo,27,
+B27005,LIBERTAD,20.051667,-96.961667,50,Veracruz de Ignacio de la Llave,Misantla,27,
+B27006,EL RAUDAL,20.158333,-96.713333,10,Veracruz de Ignacio de la Llave,Nautla,26,
+B27007,VEGA DE ALATORRE,20.02,-96.628333,10,Veracruz de Ignacio de la Llave,Vega de Alatorre,27,
+B27009,SOMBRERETE,20.891944,-97.805833,48,Veracruz de Ignacio de la Llave,Álamo Temapache,27,
+B27011,SAN NICOLAS,20.013889,-97.916667,0,México,Axapusco,27,
+B27017,EL CARMEN,20.108333,-98.079167,2160,Puebla,Ahuazotepec,27,
+B27022,LAS ANIMAS,19.65,-97.181667,1385,Veracruz de Ignacio de la Llave,Xalapa,27,
+B27031,JALACINGO,19.863333,-97.306667,1950,Veracruz de Ignacio de la Llave,Jalacingo,27,
+B27036,ALTOTONGA,19.815,-97.221667,2085,Veracruz de Ignacio de la Llave,Altotonga,27,
+B27060,RANCHO VIEJO,19.945,-97.336667,900,Veracruz de Ignacio de la Llave,Emiliano Zapata,28,
+B27075,SAN JOAQUIN,19.815,-97.123333,0,México,Naucalpan de Juárez,26,
+B27087,XALPANATL,20.018333,-97.475,760,Querétaro,Jalpan de Serra,27,
+B270LYU,LAGUNA DE YURIRIA,20.216667,-101.133333,1736,Guanajuato,Yuriria,12,
+B28001,SAN JUAN EVANGELISTA,17.883056,-95.133056,29,Veracruz de Ignacio de la Llave,San Juan Evangelista,28,
+B28002,TUXTEPEC,18.083333,-96.133333,21,Oaxaca,San Juan Bautista Tuxtepec,28,
+B28003,CARDEL,19.361667,-96.373333,28,Veracruz de Ignacio de la Llave,La Antigua,28,
+B28013,AZUETA,18.083333,-95.716667,14,Veracruz de Ignacio de la Llave,José Azueta,28,
+B28014,PAPALOAPAN,18.149722,-96.083056,14,Veracruz de Ignacio de la Llave,Cosamaloapan de Carpio,28,
+B28015,CUATOTOLAPAN,18.05,-96.533056,14,Veracruz de Ignacio de la Llave,Hueyapan de Ocampo,28,
+B28025,LAUCHAPAN,18.25,-95.349722,13,Veracruz de Ignacio de la Llave,San Andrés Tuxtla,28,
+B28030,ACTOPAN,19.494444,-96.578333,183,Veracruz de Ignacio de la Llave,Emiliano Zapata,28,
+B28039,PASO DEL TORO,19.041667,-96.14,8,Veracruz de Ignacio de la Llave,Medellín de Bravo,28,
+B28040,EL TEJAR,19.068333,-96.16,10,Veracruz de Ignacio de la Llave,Medellín de Bravo,28,
+B28056,JACATEPEC,17.866667,-96.2,42,Oaxaca,Santa María Jacatepec,28,
+B28064,SANTO DOMINGO,18.05,-95.55,95,Veracruz de Ignacio de la Llave,Isla,28,
+B28069,CAPULINES,18.865,-96.305,18,Veracruz de Ignacio de la Llave,Cotaxtla,28,
+B28081,ANGEL R. CABADAS,18.583056,-95.4375,19,Veracruz de Ignacio de la Llave,Angel R. Cabada,28,
+B280LAJ,PRESA LAS LAJAS,29.941667,-106.977222,1570,Chihuahua,Buenaventura,34,
+B28105,KM. 0 +200,19.481111,-96.55,146,Veracruz de Ignacio de la Llave,Actopan,28,
+B28108,EL NARANJILLO,19.422222,-96.381667,13,Veracruz de Ignacio de la Llave,Ursulo Galván,28,
+B28111,IDOLOS,19.403333,-96.553333,100,Veracruz de Ignacio de la Llave,Actopan,28,
+B28112,AYOTLA,18.738889,-96.455556,91,Veracruz de Ignacio de la Llave,Tierra Blanca,28,
+B28119,SANTA ANITA,18.915,-96.821667,568,Veracruz de Ignacio de la Llave,Atoyac,28,
+B28122,CAMELPO,18.738611,-96.455278,94,Veracruz de Ignacio de la Llave,Cotaxtla,28,
+B28125,CARRIZAL,19.32,-96.626667,250,Veracruz de Ignacio de la Llave,Apazapan,28,
+B28130,ACTOPAN,19.495,-96.5875,310,Veracruz de Ignacio de la Llave,Actopan,27,
+B28135,CHACALTIANGUIS,18.340278,-95.836111,8,Veracruz de Ignacio de la Llave,Cosamaloapan de Carpio,28,
+B28136,GARRO,18.270556,-95.556667,20,Veracruz de Ignacio de la Llave,Isla,28,
+B28143,SAN JOSE CHILAPA,17.8,-95.855556,40,Veracruz de Ignacio de la Llave,Playa Vicente,27,
+B28145,CEDILLO,17.25,-94.612222,100,Veracruz de Ignacio de la Llave,Uxpanapa,29,
+B28153,LA CEIBILLA,18.2875,-95.435833,36,Veracruz de Ignacio de la Llave,San Andrés Tuxtla,28,
+B28154,LA LANA,17.556667,-95.5875,65,Veracruz de Ignacio de la Llave,Santiago Sochiapan,28,
+B28156,SIHUAPAN,18.45,-95.183056,300,Veracruz de Ignacio de la Llave,San Andrés Tuxtla,28,
+B28158,MARIA LOMBARDO,17.464444,-95.493889,140,Oaxaca,Santiago Yaveo,28,
+B285LCR,LAZARO CARDENAS,25.614444,-105.003611,1600,Durango,Indé,36,
+B29005,LAS PERLAS,17.438056,-94.866667,0,Veracruz de Ignacio de la Llave,Jesús Carranza,29,
+B29006,JESUS CARRANZA 2,17.391667,-95.054167,22,Veracruz de Ignacio de la Llave,Jesús Carranza,29,
+B29008,TIERRA MORADA,17.571667,-94.163056,10,Veracruz de Ignacio de la Llave,Minatitlán,29,
+B29009,MINZAPAN,18.16,-94.788889,245,Veracruz de Ignacio de la Llave,Acayucan,29,
+B29016,CEDILLO,17.25,-94.6125,100,Veracruz de Ignacio de la Llave,Uxpanapa,29,
+B290LRY,LEOBARDO REYNOSO,23.179722,-103.207222,0,Zacatecas,Fresnillo,36,
+B295OLE,PRESA LOS OLIVOS,19.213889,-102.866667,0,Jalisco,Jilotlán de los Dolores,18,
+B298LDC,LUIS DONALDO COLOSIO,26.904167,-108.35,168,Sinaloa,Choix,10,
+B30002,GAVIOTAS,17.966667,-92.916667,-2,Tabasco,Centro,30,
+B30004,EL DORADO,17.9,-93.35,400,Chiapas,Escuintla,23,
+B30005,SAMARIA,17.979167,-93.291667,19,Tabasco,Cárdenas,30,
+B30006,EL MUELLE,17.990278,-92.916667,6,Tabasco,Centro,30,
+B30014,PUENTE COLGANTE,16.741667,-93.033333,418,Chiapas,Chiapa de Corzo,30,
+B30015,LAS PEÑITAS,17.408333,-93.45,56,Chiapas,Tila,30,
+B30016,PUEBLO NUEVO,17.854167,-92.879167,8,Tabasco,Centro,30,
+B30019,BOCA DEL CERRO,17.433333,-91.483333,100,Tabasco,Tenosique,30,
+B30020,EL BOQUERÓN 2,16.504167,-93.15,500,Chiapas,Suchiapa,30,
+B30031,PUYACATENGO,17.566667,-92.9375,40,Tabasco,Teapa,30,
+B30032,TEAPA,17.566667,-92.966667,72,Tabasco,Teapa,30,
+B30036,EL BURRERO,16.816667,-92.883333,1230,Chiapas,Ixtapa,30,
+B30039,LA MESILLA,16.183333,-92.3,560,Chiapas,Tzimol,30,
+B30041,LA ESCALERA,16.533333,-92.95,450,Chiapas,Chiapa de Corzo,30,
+B30042,SALTO DE AGUA,17.566667,-92.35,22,Chiapas,Salto de Agua,30,
+B30055,MACUSPANA,17.766667,-92.6,10,Tabasco,Macuspana,30,
+B30057,PICHUCALCO,17.558333,-93.108333,21,Chiapas,Pichucalco,30,
+B30058,PUENTE MORELOS,16.719444,-92.65,2113,Chiapas,San Cristóbal de las Casas,30,
+B30061,LA UNION,16.166667,-92.3,580,Chiapas,Cintalapa,30,
+B30062,GONZALEZ,17.975,-93,10,Tabasco,Centro,30,
+B30070,SAYULA,17.425,-93.383333,228,Chiapas,Ostuacán,30,
+B30071,SANTA MARIA,16.95,-93.766667,220,Chiapas,Larráinzar,30,
+B30072,LAS FLORES 2,16.7,-93.55,480,Chiapas,Jiquipilas,30,
+B30076,MALPASO 2,17.183333,-93.583333,192,Chiapas,Mezcalapa,30,
+B30083,LAS GAVIOTAS 2,17.966667,-92.916667,5,Tabasco,Centro,30,
+B30088,SAN PEDRO TABASCO,17.791667,-91.158333,36,Tabasco,Balancán,30,
+B30089,PUENTE COLGANTE 2,16.766667,-93.05,418,Chiapas,Chiapa de Corzo,30,
+B30091,SAN FRANCISCO 2,16.083333,-92.791667,540,Chiapas,La Concordia,30,
+B30093,TAPIJULAPA,17.466667,-92.816667,22,Tabasco,Tacotalpa,30,
+B30094,PLATANAR,17.577778,-93.3875,38,Chiapas,Pichucalco,30,
+B30097,AGUA VERDE,16.591667,-90.683333,0,Chiapas,Benemérito de las Américas,30,
+B30098,GRIJALVA,16.966667,-93.116667,210,Chiapas,Chicoasén,30,
+B300LLL,LUIS L. LEON,28.983611,-105.280556,1055,Chihuahua,Aldama,24,
+B30102,AQUESPALA,15.783333,-91.916667,675,Chiapas,La Trinitaria,30,
+B30107,EL CEDRO,16.483333,-90.4,400,Chiapas,Benemérito de las Américas,30,
+B30111,OXOLOTAN,17.383333,-92.75,100,Tabasco,Tacotalpa,30,
+B30113,IXCAN,16.1,-91.083333,299,Chiapas,Ocosingo,30,
+B30119,YAMONHO,17.116667,-93.333333,325,Chiapas,Tecpatán,30,
+B30120,CHAJUL,16.083333,-90.95,299,Chiapas,Marqués de Comillas,30,
+B30128,LA ANGOSTURA,16.445833,-92.758333,520,Chiapas,Venustiano Carranza,30,
+B30129,CHICOASEN,16.966667,-93.1,710,Chiapas,Osumacinta,30,
+B30130,PLAN DE AYALA,16.833333,-92.945833,0,Chiapas,Ixtapa,30,
+B30135,ALMANDRO,17.183333,-92.6625,242,Chiapas,Huitiupán,30,
+B30137,ALTAMIRANO,16.716667,-92.020833,1240,Chiapas,Altamirano,30,
+B30141,LIVINGSTONE,16.579167,-91.683333,0,Chiapas,Altamirano,30,
+B30143,SANTA ELENA,16.15,-91.5,728,Chiapas,Las Margaritas,30,
+B30147,EL JABALI,16.147222,-91.377222,0,Chiapas,Las Margaritas,30,
+B30149,EUSEBA,16.266667,-91.374167,0,Chiapas,Las Margaritas,30,
+B30150,LA CATARATA,16.226667,-91.308333,0,Chiapas,Maravilla Tenejapa,30,
+B30151,SAN QUINTIN,16.4125,-91.358333,1512,Chiapas,Ocosingo,30,
+B30157,PASO DEL CAYUCO,17.2625,-92.15,0,Chiapas,Tumbalá,30,
+B30158,PUENTE CONCORDIA,15.841667,-91.966667,582,Chiapas,Frontera Comalapa,30,
+B30159,EL PORVENIR,16.519444,-90.483333,5,Tabasco,Centro,30,
+B30161,EL CARMEN,16.816667,-92.166667,1278,Chiapas,Ocosingo,30,
+B30177,EL COLORADO,16.133333,-91.141667,0,Chiapas,Maravilla Tenejapa,30,
+B30181,CANDELARIA,18.183333,-91.066667,50,Campeche,Candelaria,30,
+B30184,CHICOMUSELO,15.751667,-92.273333,550,Chiapas,Chicomuselo,30,
+B30185,EL BRILLANTE,16.162778,-93.076389,540,Chiapas,Tonalá,30,
+B30187,CASCAJAL,16.308889,-92.485833,650,Chiapas,Venustiano Carranza,30,
+B30188,PUENTE INI,16.744444,-92.641667,2080,Chiapas,San Cristóbal de las Casas,30,
+B30195,JALTENANGO,15.870833,-92.723889,620,Chiapas,Angel Albino Corzo,30,
+B30196,EL LIMON,15.873611,-92.729167,615,Chiapas,Angel Albino Corzo,30,
+B30199,PALIZADA,18.126389,-92.0925,10,Campeche,Candelaria,30,
+B30210,ACALA,16.552778,-92.804167,393,Chiapas,Acala,30,
+B302MOM,PRESA MADIN,19.533056,-99.258333,2325,México,Atizapán de Zaragoza,26,
+B305MAL,PRESA MALPAIS,19.9,-100.9,0,Michoacán de Ocampo,Zinapécuaro,12,
+B31002,CANASAYAB,19.3,-90.516667,37,Campeche,Champotón,31,
+B315MAZ,PRESA INSURGENTE MARIANO ABASOLO,20.5,-101.95,1740,Guanajuato,Pénjamo,12,
+B320MRG,MARTE RODOLFO GOMEZ,26.225,-98.916667,120,Tamaulipas,Camargo,24,
+B321MLU,MEDIA LUNA,21.7925,-102.801667,1585,Aguascalientes,Calvillo,12,
+B324MIM,MIGUEL DE LA MADRID,18.016667,-96.266667,42,Oaxaca,San Lucas Ojitlán,28,
+B325MHD,MIGUEL HIDALGO,26.509722,-108.579167,300,Sinaloa,El Fuerte,10,
+B326MAL,MIGUEL ALEMAN,18.233333,-96.5,80,Oaxaca,San Miguel Soyaltepec,28,
+B332PBL,PRESA PABELLON,22.1625,-102.291944,1909,Aguascalientes,Pabellón de Arteaga,,
+B333PAS,PALOMAS,22.345,-102.798333,2089,Zacatecas,Villanueva,12,
+B334PPI,PRESA PASO DE PIEDRAS,21.737222,-98.152778,40,Veracruz de Ignacio de la Llave,Ozuluama de Mascareñas,26,
+B335PAG,PEÑA DEL AGUILA,24.237222,-104.655556,1896,Durango,Durango,11,
+B336PTS,ANGEL ALBINO CORZO (PEÑITAS),19.266667,-103.816667,450,Colima,Villa de Álvarez,,
+B34004,CASAS GRANDES,30.375,-107.933333,1473,Chihuahua,Casas Grandes,34,
+B34008,LA TRASQUILA,29.733333,-107.075,1441,Chihuahua,Buenaventura,34,
+B340PEN,PEÑUELITAS,21.104444,-100.875833,1915,Guanajuato,Dolores Hidalgo Cuna de la Independencia Nacional,12,
+B341PJM,PEDRO J. MÉNDEZ,24.233333,-99.55,153,Tamaulipas,Hidalgo,25,
+B345PEC,PLUTARCO ELIAS CALLES,28.981111,-109.631111,2110,Sonora,Soyopa,9,
+B35003,AGUA PUERCA,26.236667,-104.483333,1400,Durango,Mapimí,35,
+B350PAL,PRESIDENTE ALEMAN,21.649444,-103.339722,1740,Zacatecas,Tepechitlán,12,
+B355PUC,PRESA PUCUATO,19.621667,-100.686111,0,Michoacán de Ocampo,Hidalgo,18,
+B359REP,REPUBLICA ESPAÑOLA,23.258056,-97.990556,90,Tamaulipas,Aldama,25,
+B36003,COYOTE,25.541667,-103.466667,1140,Coahuila de Zaragoza,Torreón,36,
+B36012,SAN JUAN DE GUADALUPE,24.633333,-102.791667,1700,Durango,San Juan de Guadalupe,36,
+B36039,LA FLOR,25.091667,-103.325,1300,Coahuila de Zaragoza,Torreón,36,
+B36040,LA FLOR,25.091667,-103.325,1270,Durango,General Simón Bolívar,36,
+B36041,SOMBRERETILLO,25.175,-103.341667,339,Nuevo León,Sabinas Hidalgo,36,
+B36044,EL PALMITO 2,25.6,-105.025,1600,Durango,Indé,36,
+B36048,SANTA ROSA,22.916667,-103.108333,2240,Zacatecas,Fresnillo,36,
+B36067,CAÑON FERNANDEZ 2,25.283333,-103.775,1200,Durango,Cuencamé,36,
+B36071,SARDINAS,26.083333,-105.57,1639,Durango,San Bernardo,36,
+B36074,J. SALOME ACOSTA,25.508333,-103.541667,1670,Durango,Santiago Papasquiaro,36,
+B36076,AGUSTIN MELGAR,25.264167,-104.068056,1225,Durango,Nazas,36,
+B36080,SAN FRANCISCO,24.313889,-102.885,1681,Zacatecas,General Francisco R. Murguía,36,
+B36090,LOS NARANJOS,24.625,-103.305556,1650,Durango,General Simón Bolívar,36,
+B361RFV,RODOLFO FELIX VALDEZ,29.4,-110.433333,0,Sonora,Ures,9,
+B37012,TULA,23.001389,-99.7125,0,Hidalgo,Tula de Allende,26,
+B370RDG,PRESA RODRIGUEZ,21.916667,-102.426944,0,Aguascalientes,Jesús María,12,
+B375SAB,PRESA SABANETA,19.619444,-100.670833,0,Michoacán de Ocampo,Hidalgo,18,
+B380SAL,LAGUNA SALINILLAS,27.45,-100.383333,232,Nuevo León,Anáhuac,24,
+B383SGA,SAN GABRIEL,23.083611,-98.787222,140,Tamaulipas,Xicoténcatl,24,
+B385SIL,SAN ILDEFONSO,20.208333,-99.966667,0,México,Aculco,26,
+B389SJS,SAN JOSE,19.9075,-100.316667,2043,Michoacán de Ocampo,Maravatío,37,
+B390SJA,SAN JOSE ATLANGA,19.55,-98.2,2498,Tlaxcala,Atlangatepec,18,
+B395SAN,PRESA SANALONA,24.813889,-107.158333,170,Sinaloa,Culiacán,10,
+B397SEL,SANTA ELENA,23.623333,-104.054444,2480,Durango,Súchil,11,
+B400SRO,SANTA ROSA,20.910556,-103.711944,730,Jalisco,Amatitán,12,
+B405STR,SANTA ROSA,22.926111,-103.113056,2240,Zacatecas,Fresnillo,36,
+B407SBY,SANTIAGO BAYACORA,23.873333,-104.673889,0,Durango,Durango,11,
+B410SOL,PRESA SOLIS,20.05,-100.816667,1849,Guanajuato,Acámbaro,12,
+B415TAC,TACOTAN,20.035278,-104.32,0,Jalisco,Unión de Tula,16,
+B416VIH,VILLA HIDALGO,26.1,-104.5,1750,Durango,Mapimí,35,
+B420TAX,PRESA TAXHIMAY,19.835833,-99.385,0,México,Villa del Carbón,26,
+B425TEN,PRESA TENASCO,22.173889,-103.197222,1850,Jalisco,Santa María de los Ángeles,12,
+B435TPN,TEPETITLAN NUEVA,19.663333,-99.958611,2584,México,San Felipe del Progreso,12,
+B440TPX,PRESA TEPUXTEPEC,19.98,-100.230278,2380,Michoacán de Ocampo,Contepec,12,
+B441TMU,TERCER MUNDO,19.48,-100.2,0,México,Villa de Allende,12,
+B442TRM,TRIGOMIL,19.85,-104.116667,0,Jalisco,El Limón,16,
+B445URE,PRESA UREPETIRO,19.971944,-102.134167,1807,Michoacán de Ocampo,Tlazazalca,12,
+B450VCV,VICENTE C. VILLASEÑOR,19.938333,-104,0,Jalisco,Ejutla,18,
+B455VTR,PRESA VALERIO TRUJANO,18.416667,-99.5,0,Guerrero,Buenavista de Cuéllar,18,
+B460VCA,VENUSTIANO CARRANZA,20.510278,-97.676111,2400,Puebla,Venustiano Carranza,24,
+B465VAG,VICENTE AGUIRRE,20.439444,-99.377778,0,Hidalgo,Alfajayucan,26,
+B470VGU,VICENTE GUERRERO,22.315833,-103.441389,1925,Zacatecas,Monte Escobedo,18,
+B475VIG,VICENTE GUERRERO,23.966667,-98.55,230,Tamaulipas,Jiménez,25,
+B477YOS,YOSOCUTA,17.725,-97.829167,1410,Oaxaca,San Marcos Arteaga,18,
+B480ZIR,PRESA ZICUIRAN,18.920278,-101.929722,0,Michoacán de Ocampo,La Huacana,18,
+B510CPE,CAJON DE PEÑA,20.033333,-105.066667,0,Jalisco,Tomatlán,15,
+B515CHE,PRESA CHICOASEN,16.933333,-93.1,710,Chiapas,Osumacinta,30,
+B516CHI,CHICAYAN,21.737222,-98.152778,40,Veracruz de Ignacio de la Llave,Ozuluama de Mascareñas,26,
+B517CAP,CONSTITUCION DE APATZINGAN,20.418333,-100.0725,1295,Querétaro,San Juan del Río,18,
+B535ECZ,EL CARRIZO,32.483333,-116.7,495,Baja California,Tecate,1,
+B552JCO,JOCOQUE,22.121111,-102.354444,1970,Aguascalientes,San José de Gracia,12,
+B560CPI,PRESA LA CONCEPCION,20.148056,-99.908889,2360,México,Aculco,26,
+B580PSA,PRESA LA PURISIMA,20.85,-101.283333,1839,Guanajuato,Guanajuato,12,
+B595SOD,PRESA LA SOLEDAD,19.959167,-97.445833,1590,Puebla,Tlatlauquitepec,27,
+B600NAR,LOS NARANJOS,24.625,-103.305556,1650,Durango,General Simón Bolívar,,
