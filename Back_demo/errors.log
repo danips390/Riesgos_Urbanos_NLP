@@ -1,0 +1,2375 @@
+2024-10-31 15:44:09,280 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 22, in process_text
+    results = process_text_storage(payload.text)
+
+NameError: name 'process_text_storage' is not defined
+
+ - END OF EXCEPT -
+2024-11-01 11:21:20,327 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 24, in process_text_storage
+    _save_tweet(text)  # Almacena el texto con UUID
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 15, in _save_tweet
+    tweet_record["texts"][tweet_id] = text
+
+TypeError: 'str' object does not support item assignment
+
+ - END OF EXCEPT -
+2024-11-01 11:21:21,323 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 24, in process_text_storage
+    _save_tweet(text)  # Almacena el texto con UUID
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 15, in _save_tweet
+    tweet_record["texts"][tweet_id] = text
+
+TypeError: 'str' object does not support item assignment
+
+ - END OF EXCEPT -
+2024-11-01 11:21:21,767 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 24, in process_text_storage
+    _save_tweet(text)  # Almacena el texto con UUID
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 15, in _save_tweet
+    tweet_record["texts"][tweet_id] = text
+
+TypeError: 'str' object does not support item assignment
+
+ - END OF EXCEPT -
+2024-11-01 11:25:30,376 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 26, in process_text_storage
+    _save_tweet(text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 11, in _save_tweet
+    text_record = _get_tweets_record()
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 23, in _get_tweets_record
+    return json.loads(file.read(), object_hook=user_record_dec)["tweets"]
+
+NameError: name 'user_record_dec' is not defined
+
+ - END OF EXCEPT -
+2024-11-01 11:25:31,294 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 26, in process_text_storage
+    _save_tweet(text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 11, in _save_tweet
+    text_record = _get_tweets_record()
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 23, in _get_tweets_record
+    return json.loads(file.read(), object_hook=user_record_dec)["tweets"]
+
+NameError: name 'user_record_dec' is not defined
+
+ - END OF EXCEPT -
+2024-11-01 11:25:32,846 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 26, in process_text_storage
+    _save_tweet(text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 11, in _save_tweet
+    text_record = _get_tweets_record()
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 23, in _get_tweets_record
+    return json.loads(file.read(), object_hook=user_record_dec)["tweets"]
+
+NameError: name 'user_record_dec' is not defined
+
+ - END OF EXCEPT -
+2024-11-01 11:25:33,338 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 26, in process_text_storage
+    _save_tweet(text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 11, in _save_tweet
+    text_record = _get_tweets_record()
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 23, in _get_tweets_record
+    return json.loads(file.read(), object_hook=user_record_dec)["tweets"]
+
+NameError: name 'user_record_dec' is not defined
+
+ - END OF EXCEPT -
+2024-11-01 11:25:33,608 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 26, in process_text_storage
+    _save_tweet(text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 11, in _save_tweet
+    text_record = _get_tweets_record()
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 23, in _get_tweets_record
+    return json.loads(file.read(), object_hook=user_record_dec)["tweets"]
+
+NameError: name 'user_record_dec' is not defined
+
+ - END OF EXCEPT -
+2024-11-01 11:26:03,051 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 26, in process_text_storage
+    _save_tweet(text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 11, in _save_tweet
+    text_record = _get_tweets_record()
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 23, in _get_tweets_record
+    return json.loads(file.read(), object_hook=user_record_dec)["tweets"]
+
+NameError: name 'user_record_dec' is not defined
+
+ - END OF EXCEPT -
+2024-11-01 12:20:55,688 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 28, in process_text_storage
+    texts = [value for key, value in tweet_record['tweets'].items()]
+
+KeyError: 'tweets'
+
+ - END OF EXCEPT -
+2024-11-01 12:24:04,677 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 29, in process_text_storage
+    texts = [value for key, value in tweet_record['tweets'].items()]
+
+KeyError: 'tweets'
+
+ - END OF EXCEPT -
+2024-11-01 12:52:49,067 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 23, in process_text_storage
+    entidades_identificadas = CreateLabelsAndFDF(tweet_record)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 33, in CreateLabelsAndFDF
+    model = spacy.load(FUZY_PATH)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\spacy\__init__.py", line 51, in load
+    return util.load_model(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\spacy\util.py", line 466, in load_model
+    if Path(name).exists():  # path to model data directory
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\pathlib.py", line 1407, in exists
+    self.stat()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\pathlib.py", line 1221, in stat
+    return self._accessor.stat(self)
+
+OSError: [WinError 123] El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correctos: 'models\x0cuzzymodelV1_0_2'
+
+ - END OF EXCEPT -
+2024-11-04 13:46:37,726 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 23, in process_text_storage
+    entidades_identificadas = CreateLabelsAndFDF(text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 32, in CreateLabelsAndFDF
+    df = pd.DataFrame({'Texto': tweet})
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\frame.py", line 708, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\internals\construction.py", line 481, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\internals\construction.py", line 115, in arrays_to_mgr
+    index = _extract_index(arrays)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\internals\construction.py", line 645, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+
+ValueError: If using all scalar values, you must pass an index
+
+ - END OF EXCEPT -
+2024-11-04 13:48:11,944 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 23, in process_text_storage
+    entidades_identificadas = CreateLabelsAndFDF(text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 32, in CreateLabelsAndFDF
+    df = pd.DataFrame({'Texto': tweet})
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\frame.py", line 708, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\internals\construction.py", line 481, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\internals\construction.py", line 115, in arrays_to_mgr
+    index = _extract_index(arrays)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\core\internals\construction.py", line 645, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+
+ValueError: If using all scalar values, you must pass an index
+
+ - END OF EXCEPT -
+2024-11-04 14:56:51,055 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 23, in process_text_storage
+    entidades_identificadas = CreateLabelsAndFDF(text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 43, in CreateLabelsAndFDF
+    if os.path.exists(TWEETS_STORAGE):
+
+NameError: name 'os' is not defined
+
+ - END OF EXCEPT -
+2024-11-04 15:20:48,655 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 24, in process_text_storage
+    entidades_identificadas, temp_df = CreateLabelsAndFDF(text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 56, in CreateLabelsAndFDF
+    return quantity, new_df
+
+NameError: name 'new_df' is not defined
+
+ - END OF EXCEPT -
+2024-11-04 15:22:54,357 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 28, in process_text_storage
+    classified_df = ClassifyText(temp_df)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 61, in ClassifyText
+    class_values = cs.ClassifyTweet(CLASSIFY_PATH,CLASS_LABELS, tweet["Texto"])
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\methods\Classify.py", line 13, in ClassifyTweet
+    inputs = tokenizer(tweet, return_tensors="pt", padding=True, truncation=True, max_length=128)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\tokenization_utils_base.py", line 3055, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\tokenization_utils_base.py", line 3114, in _call_one
+    raise ValueError(
+
+ValueError: text input must be of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+
+ - END OF EXCEPT -
+2024-11-04 15:50:21,858 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 28, in process_text_storage
+    classified_df = ClassifyText(temp_df)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 61, in ClassifyText
+    class_values = cs.ClassifyTweet(CLASSIFY_PATH,CLASS_LABELS, tweet["Texto"])
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\methods\Classify.py", line 13, in ClassifyTweet
+    inputs = tokenizer(tweet, return_tensors="pt", padding=True, truncation=True, max_length=128)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\tokenization_utils_base.py", line 3055, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\tokenization_utils_base.py", line 3114, in _call_one
+    raise ValueError(
+
+ValueError: text input must be of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+
+ - END OF EXCEPT -
+2024-11-04 15:51:57,222 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 28, in process_text_storage
+    classified_df = ClassifyText(temp_df)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 62, in ClassifyText
+    class_values = cs.ClassifyTweet(CLASSIFY_PATH,CLASS_LABELS, tweet["Texto"])
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\methods\Classify.py", line 13, in ClassifyTweet
+    inputs = tokenizer(tweet, return_tensors="pt", padding=True, truncation=True, max_length=128)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\tokenization_utils_base.py", line 3055, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\transformers\tokenization_utils_base.py", line 3114, in _call_one
+    raise ValueError(
+
+ValueError: text input must be of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+
+ - END OF EXCEPT -
+2024-11-04 15:56:50,040 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 28, in process_text_storage
+    classified_df = ClassifyText(temp_df)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 62, in ClassifyText
+    class_values = cs.ClassifyTweet(CLASSIFY_PATH,CLASS_LABELS, str(tweet["Texto"]))
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\methods\Classify.py", line 23, in ClassifyTweet
+    df = pd.read_csv(labels_path)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+
+FileNotFoundError: [Errno 2] No such file or directory: 'databases\\Classification_labels'
+
+ - END OF EXCEPT -
+2024-11-04 15:59:07,141 - root - ERROR - Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 105, in receive
+    return self.receive_nowait()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 100, in receive_nowait
+    raise WouldBlock
+
+anyio.WouldBlock
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 118, in receive
+    return receiver.item
+
+AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\anyio\streams\memory.py", line 120, in receive
+    raise EndOfStream
+
+anyio.EndOfStream
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\main.py", line 41, in exception_middleware
+    return await call_next(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+
+  File "C:\Users\lol_a\AppData\Local\Programs\Python\Python39\lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\routers\texts.py", line 24, in process_text
+    results = process_text_storage(payload.text)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 28, in process_text_storage
+    classified_df = ClassifyText(temp_df)
+
+  File "d:\home\[00]_Projects\[01]_School\Tweeter\BackDemo\texts\process_text.py", line 63, in ClassifyText
+    tweet[i] = df_resultado[i]
+
+NameError: name 'df_resultado' is not defined
+
+ - END OF EXCEPT -
