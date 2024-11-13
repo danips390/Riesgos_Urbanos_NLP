@@ -79,7 +79,7 @@ def normalize_prefixes(entity):
 # Find Entity in dataframe in the column etiqueta
 def find_best_coincidence(entity, df, etiqueta):
     # Normalizar los nombres en la base de datos antes de comparar
-    normalized_names = [normalize_prefixes(name) for name in df[etiqueta] if pd.notna(name)]
+    normalized_names = [normalize_prefixes(name) for name in df[etiqueta] if pd.notna(name)] #normaliza la base de datos
     real_names = [name for name in df[etiqueta] if pd.notna(name)]
     # Find best coincidence and score
     best_coincidence, score = process.extractOne(entity, normalized_names, scorer=fuzz.token_sort_ratio)
@@ -112,6 +112,8 @@ def Fuzzy2Result(ExpData, RealData, labels):
             for name in convertLists:
                 ## Normalizar las palabras a un estandar
                 normalized_Name = normalize_prefixes(name)
+                if normalized_Name == '':
+                    continue
                 # SPECFICIC EXCEPTIONS
                 # Normalizar el nombre de la colonia antes de comparar
                 if label == "municipio":
@@ -133,7 +135,7 @@ def Fuzzy2Result(ExpData, RealData, labels):
                 ##Find the best math based on the porcentage
                 best_coincidence, score, idx_name, real_name = find_best_coincidence(normalized_Name, locationData, label)
                 # If the porcetenge is enough
-                if score > 75:
+                if score > 60:
                     quantity += 1
                     # Add the similar word 
                     coincidences.append(real_name)
