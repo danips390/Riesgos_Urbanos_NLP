@@ -57,15 +57,12 @@ export async function analyseTweet(text) {
         body: JSON.stringify({ text }) // Enviar el texto en el cuerpo de la solicitud
     });
 
-    const parsedResponse = await response.json();
+    const mapHTML = await response.text();  // Obtener el HTML como texto
 
     if (!response.ok) 
-        throw new HttpError(response.status, parsedResponse);
-    
-    validateResponseFormat(parsedResponse, { "valid_text": true });
+        throw new HttpError(response.status, mapHTML);
 
-
-    return parsedResponse.valid_text;
+    return mapHTML;
 }
 
 
