@@ -21,12 +21,15 @@ def ClassifyTweet(model_path, labels_path, tweet):
     probabilidades = softmax(logits.numpy(), axis=1)[0]
     # Cargar el LabelEncoder para obtener las categorías
     df = pd.read_csv(labels_path)
+    #df = df[df['Tipo'] != 'no se relaciona']
     label_encoder = LabelEncoder()
     df['label'] = label_encoder.fit_transform(df['Tipo'])
     # Obtener los nombres de las categorías
     categorias = label_encoder.classes_
     # Crear un nuevo DataFrame con las categorías y las probabilidades
     df_resultado = pd.DataFrame([probabilidades], columns=categorias)
+    # Obtener el valor máximo y el nombre de la columna correspondiente
+    df_resultado['Tipo'] = df_resultado[df_resultado.columns.tolist()].idxmax(axis=1)
     # Mostrar el DataFrame con las categorías y sus porcentajes de presencia
     print(df_resultado)
     return df_resultado

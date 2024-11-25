@@ -91,13 +91,15 @@ def Fuzzy2Result(ExpData, RealData, labels):
     quantity = 0
     print("Analyzing coincidences")
     obtainedData = ExpData
-    obtainedData = obtainedData.rename(columns={'COL': 'colonia', 'CALLE': 'calle', 'MUN': 'municipio'})
+    obtainedData = obtainedData.rename(columns={'COL': 'colonia', 'CALLE': 'calle', 'MUN': 'municipio', 'REGION' : 'region'})
     locationData = RealData
     colIterableNames = labels
     fuzzyDataFrame = obtainedData.copy()
     #Iterate thorugh the important labels
     for label in colIterableNames:
+        print(label)
         for idx, entity in obtainedData[label].items(): 
+            print(entity)
             #if the entity is empty
             if pd.isna(entity) or entity == "[]":
                 continue #Exit the iteration
@@ -131,9 +133,13 @@ def Fuzzy2Result(ExpData, RealData, labels):
                     elif normalized_Name == "moronesprieto":
                         normalized_Name = "manuelmoronesprieto"
                     elif normalized_Name == "lopezmateos":
-                        normalized_Name = "adolfolopezmateos"              
-                ##Find the best math based on the porcentage
-                best_coincidence, score, idx_name, real_name = find_best_coincidence(normalized_Name, locationData, label)
+                        normalized_Name = "adolfolopezmateos" 
+
+                if label == "region":      
+                    ##Find the best math based on the porcentage
+                    best_coincidence, score, idx_name, real_name = find_best_coincidence(normalized_Name, locationData, "colonia")
+                else:
+                    best_coincidence, score, idx_name, real_name = find_best_coincidence(normalized_Name, locationData, label)
                 # If the porcetenge is enough
                 if score > 60:
                     quantity += 1

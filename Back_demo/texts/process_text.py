@@ -4,6 +4,8 @@ from paths import ENCODING, USER_RECORD, MTY_DF, TWEETS_STORAGE, FUZY_PATH, CLAS
 from methods import Model2Fuzzy as mf
 from methods import Classify as cs
 from methods import Sentimental as ss
+from methods import Geolocalize as gd
+from methods import QGIS_geo as qgis
 import pandas as pd
 import os
 
@@ -24,7 +26,7 @@ def process_text_storage(text: str) -> bool:
     ## ----------------------------------------------------------- Proceso de analisis de tweets
     entidades_identificadas, temp_df = CreateLabelsAndFDF(text)
     if entidades_identificadas <= 0:
-        return False
+        return 
     #Pasamos el tweet ya con labels y con fuzzy
     classified_df = ClassifyText(temp_df)
     #Le damos un valor de riesgo
@@ -35,11 +37,18 @@ def process_text_storage(text: str) -> bool:
         updated_df = pd.concat([general_df, processed_tweet], ignore_index=True)
     else:
         updated_df = classified_df
-        print("General dataframe created")
-    
+        print("General datame created")
+    ##Create the map
     updated_df.to_csv(TWEETS_STORAGE, index=False)
+    #htmlmap = Localize(processed_tweet)
+    ## Pass the dataframe to qgafris
+    #QGIS_Localize(updated_df)
+
     print("Proceso completo, datos guardados en: " + TWEETS_STORAGE)
-    return True
+    if len(updated_df)%3 == 0: 
+        htmlmap = Localize(updated_df)
+        quantity = 0
+        return htmlmap
 
 def CreateLabelsAndFDF(tweet):
     print(tweet)
@@ -49,7 +58,7 @@ def CreateLabelsAndFDF(tweet):
     print("Creando labels")
     newdf = mf.CreateLabels(FUZY_PATH, df, "Texto", lables)
     print("Labels creadas")
-    colIterableNames = ["municipio", "colonia", "calle"]
+    colIterableNames = ["municipio", "colonia", "calle", "region"]
     realData = pd.read_csv(MTY_DF)
     print("Using Fuzzy")
     quantity, newdf = mf.Fuzzy2Result(newdf, realData, colIterableNames)
@@ -70,6 +79,17 @@ def SentimentalAnalysis(tweet):
     print("Sentimental analysis.....")
     tweet = ss.Sentimental(tweet)
     return tweet
+    print("Sentiment analysis done")
 
-def Localize(MUN_PATH, COL_PATH)
+def Localize(tweet):
+    print("Passing to QGIS Cloud.......")
+    htmlmap = gd.CreateMap(MUN_PATH, COL_PATH, tweet)
+    return htmlmap
+
+def QGIS_Localize(tweet_storage):
+    print("Creating ShapeFiles.......")
+    qgis.CreateShapeFiles(MUN_PATH, COL_PATH, tweet_storage)
+
+
+    
 

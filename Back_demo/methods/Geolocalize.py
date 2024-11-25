@@ -119,9 +119,16 @@ def CreateMap(path_municipios, path_colonias, tweet):
         elif tipo.lower() == 'eléctrico':
             icono = "flash"  # Cambiado a 'flash' ya que 'plug' no está disponible
             color_icono = "orange"
+
+        elif tipo.lower() =='problema vial':
+            icono = "road"
+            color_icono="purple"
+        elif tipo.lower() =='incendio':
+            icono = "fire"
+            color_icono="darkred"
         else:
             icono = "question-circle"
-            color_icono = "gray"  # Color para los tipos no relacionados
+            color_icono = "gray"  # Color para los tipos no relacionados
         
         # Asegurarse de que el valor de 'calle' es una cadena
         if isinstance(calles_lista, str):
